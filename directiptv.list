@@ -1,0 +1,17 @@
+#direct domian or ip
+
+DOMAIN-SUFFIX,tanx.com
+ 
+# 自定义的规则集域名规则
+DOMAIN-SUFFIX,dnsany.com
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,solidigm-qwer.com
+  
+DOMAIN-SUFFIX,cmvideo.cn
+DOMAIN-SUFFIX,chinamobile.com
+DOMAIN-SUFFIX,mobaibox.com
+DOMAIN-SUFFIX,gitv.tv
+DOMAIN-SUFFIX,cctv.cn
+DOMAIN-SUFFIX,yangshipin.cn
+DOMAIN-SUFFIX,gcable.cn
+DOMAIN-SUFFIX,xueersi.com
