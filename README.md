@@ -17,8 +17,7 @@ http://tv.anbox.ip-ddns.com/vod
 
 三网体育融合：
 
-https://www.mytvsuper.com.mp/m3u/judy.m3u
-
+https://www.mytvsuper.com.mp/m3u/judy.m3u (失效，tg上通过机器人获取token)
 UA：Judy5.2.0
 
 http://tv.anbox.ip-ddns.com/live
