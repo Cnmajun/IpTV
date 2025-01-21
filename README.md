@@ -51,6 +51,20 @@ IPTV(IPV6专用)
 
 https://live.fanmingming.com/tv/m3u/ipv6.m3u
 
+
+DaddyLive Live TV & Sports Playlists
+
+Playlist URLs
+
+English Only: https://bit.ly/ddy-m3u4
+
+All Regions: https://bit.ly/ddy-m3u4-all
+
+Guide URLs
+
+EPG (XML): https://bit.ly/ddy-epg1
+
+
 Global直播源
 https://live.fanmingming.com/tv/m3u/global.m3u
 
