@@ -112,6 +112,13 @@
             "url": "https://192.168.123.10:8000/beesport.m3u",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
             "logo": "http://epg.51zmt.top:8000/{logo}"
+        },        
+        {
+            "name": "Robyang",
+            "type": 1,
+            "url": "http://robyang.us.kg",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
+            "logo": "http://epg.51zmt.top:8000/{logo}"
         }
         
         
