@@ -1,19 +1,119 @@
 {
     "lives": [
         {
-            "name": "自用直播",
+            "name": "AKTV",
             "type": 0,
             "boot":true,
-            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/mengzehe/m3u/main/live-online.m3u",
+            "url": "http://aktv.space/live.m3u",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "FongMi直播",
+            "name": "Allinone",
             "type": 1,
-            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/live.json",
+            "url": "http://192.168.123.10:35455/yv.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
+            "logo": "http://epg.51zmt.top:8000/{logo}"
+        },        
+        {
+            "name": "Daddylive",
+            "type": 1,
+            "url": "https://192.168.123.10:6077/channels.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
+            "logo": "http://epg.51zmt.top:8000/{logo}"
+        },        
+        {
+            "name": "4Gtv",
+            "type": 1,
+            "url": "https://192.168.123.10:8000/4gtv.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
+            "logo": "http://epg.51zmt.top:8000/{logo}"
+        },        
+        {
+            "name": "beesport",
+            "type": 1,
+            "url": "https://192.168.123.10:8000/beesport.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
+            "logo": "http://epg.51zmt.top:8000/{logo}"
+        },        
+        {
+            "name": "Hami",
+            "type": 1,
+            "url": "https://192.168.123.10:5150/hami.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
+            "logo": "http://epg.51zmt.top:8000/{logo}"
+        },                
+        {
+            "name": "YanG Gather",
+            "type": 1,
+            "url": "https://tv.iill.top/m3u/Gather.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
+            "logo": "http://epg.51zmt.top:8000/{logo}"
+        },        
+        {
+            "name": "YanG Sports",
+            "type": 1,
+            "url": "https://tv.iill.top/m3u/Sport.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
+            "logo": "http://epg.51zmt.top:8000/{logo}"
+        },        
+        {
+            "name": "ip365",
+            "type": 1,
+            "url": "https://192.168.123.10:8000/beesport.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
+            "logo": "http://epg.51zmt.top:8000/{logo}"
+        },        
+        {
+            "name": "Yuechan test",
+            "type": 1,
+            "url": "https://192.168.123.10:8000/beesport.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
+            "logo": "http://epg.51zmt.top:8000/{logo}"
+        },        
+        {
+            "name": "streamlink",
+            "type": 1,
+            "url": "https://192.168.123.10:8000/beesport.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
+            "logo": "http://epg.51zmt.top:8000/{logo}"
+        },        
+        {
+            "name": "Astro",
+            "type": 1,
+            "url": "https://192.168.123.10:8000/beesport.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
+            "logo": "http://epg.51zmt.top:8000/{logo}"
+        },        
+        {
+            "name": "HKdvb",
+            "type": 1,
+            "url": "https://192.168.123.10:8000/beesport.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
+            "logo": "http://epg.51zmt.top:8000/{logo}"
+        },        
+        {
+            "name": "Fanmingming",
+            "type": 1,
+            "url": "https://192.168.123.10:8000/beesport.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
+            "logo": "http://epg.51zmt.top:8000/{logo}"
+        },        
+        {
+            "name": "王小二",
+            "type": 1,
+            "url": "https://192.168.123.10:8000/beesport.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
+            "logo": "http://epg.51zmt.top:8000/{logo}"
+        },        
+        {
+            "name": "Judy Sports",
+            "type": 1,
+            "url": "https://192.168.123.10:8000/beesport.m3u",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
             "logo": "http://epg.51zmt.top:8000/{logo}"
         }
+        
+        
     ]
 }
