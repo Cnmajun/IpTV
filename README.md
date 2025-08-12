@@ -12,7 +12,8 @@
 
 目前在使用的几组IPTV订阅
 
-https://raw.githubusercontent.com/mavin521/syiptv/refs/heads/main/sports.m3u
+
+体育直播：  https://raw.githubusercontent.com/mavin521/syiptv/refs/heads/main/sports.m3u
 
 
 #### astro，需要配置使用新加坡代理
