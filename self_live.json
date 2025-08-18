@@ -11,7 +11,7 @@
         {
             "name": "Allinone",
             "type": 1,
-            "url": "http://192.168.123.10:35455/yv.m3u",
+            "url": "http://192.168.123.10:35455/tv.m3u",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
             "logo": "http://epg.51zmt.top:8000/{logo}"
         },        
