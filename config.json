@@ -5,18 +5,19 @@
         "groups": ["news", "⚽ SPORTS FHD"],
         "channels": ["CCTV-1", "CCTV-13"],
         "keywords": ["HBO", "BBC"],
-        "UA": ["okHttp"]
+        "UA": [""]
       },
       {
         "url": "https://raw.githubusercontent.com/Cnmajun/IpTV/refs/heads/main/FREETV.txt",
         "groups": ["🇲🇾 SPORTS"],
         "channels": ["HITSMovies"],
         "keywords": ["音乐", "少儿"],
-        "UA": ["okHttp"]
+        "UA": [""]
       }
     ],
     "output": "output.m3u",
     "merge_similar_channels": true,
     "check_urls": true
   }
+
   
