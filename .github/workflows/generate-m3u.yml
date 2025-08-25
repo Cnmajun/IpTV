@@ -1,0 +1,52 @@
+name: Generate M3U from GitLab
+on:
+  workflow_dispatch: # Manual trigger
+  schedule:
+    - cron: '0 2 * * *' # Daily at 2 AM UTC
+jobs:
+  generate-m3u:
+    runs-on: ubuntu-24.04
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      with:
+        ref: main # Replace with your GitHub default branch
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+    - name: Debug Environment
+      run: |
+        python --version
+        pip list
+        git --version
+        git config --list
+        pwd
+        ls -la
+    - name: Generate M3U
+      run: |
+        python generate_m3u.py
+    - name: Commit and Push Output
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add output.m3u
+        git commit -m "Update output.m3u from GitLab sources" || {
+          echo "No changes to commit"
+          exit 0
+        }
+        git push origin main || {
+          echo "Failed to push to origin main"
+          exit 1
+        }
+    - name: Debug on Failure
+      if: failure()
+      run: |
+        git status
+        git remote -v
+        git log --oneline -n 5
+        cat output.m3u
