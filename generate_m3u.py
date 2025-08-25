@@ -1,114 +1,116 @@
 import json
 import requests
 import re
-import urllib.request
-from urllib.parse import urlparse
-import socket
-import time
+from pathlib import Path
+from datetime import datetime
 
-def is_url_valid(url):
-    """Check if a URL is valid and reachable."""
+# 读取配置
+with open("config.json", "r", encoding="utf-8") as f:
+    config = json.load(f)
+
+channels_map = {}
+output_lines = []
+invalid_links = []
+
+def fetch_content(url, ua=None):
+    headers = {}
+    if ua:
+        headers["User-Agent"] = ua
+    r = requests.get(url, headers=headers, timeout=15)
+    r.raise_for_status()
+    return r.text
+
+def check_url(url):
     try:
-        with urllib.request.urlopen(url, timeout=5) as response:
-            return response.getcode() == 200
-    except (urllib.error.URLError, socket.timeout):
+        r = requests.head(url, timeout=10, allow_redirects=True)
+        return r.status_code == 200
+    except Exception:
         return False
 
-def parse_m3u(content):
-    """Parse M3U content into a list of entries."""
-    entries = []
-    current_entry = None
+# 提取分辨率（URL 或名字里包含 1080p/720/480 等）
+def extract_resolution(text):
+    match = re.search(r'(\d{3,4})[pi]', text.lower())
+    if match:
+        return int(match.group(1))
+    return 0
+
+for source in config["sources"]:
+    ua_default = source.get("UA", [None])[0]  # 只用第一个 UA
+    content = fetch_content(source["url"], ua=ua_default)
+
     lines = content.splitlines()
-    
+
+    group_filters = set(source.get("groups", []))
+    channel_filters = set(source.get("channels", []))
+    keyword_filters = source.get("keywords", [])
+
+    current_group = None
+    keep_channel = False
+    channel_name = None
+
     for line in lines:
-        line = line.strip()
-        if line.startswith('#EXTINF'):
-            current_entry = {'extinf': line}
-        elif line and not line.startswith('#') and current_entry:
-            current_entry['url'] = line
-            entries.append(current_entry)
-            current_entry = None
-    
-    return entries
+        if line.startswith("#EXTINF"):
+            # 提取组名、频道名
+            group_match = re.search(r'group-title="([^"]+)"', line)
+            name_match = re.search(r',(.+)', line)
+            group = group_match.group(1) if group_match else ""
+            name = name_match.group(1).strip() if name_match else ""
 
-def fetch_source(source):
-    """Fetch and parse content from a source URL."""
-    url = source['url']
-    try:
-        headers = {'User-Agent': source.get('UA', [''])[0]}
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        content = response.text
-        
-        if url.endswith('.m3u'):
-            return parse_m3u(content)
-        else:  # Assume TXT is similar to M3U for simplicity
-            return parse_m3u(content)  # Adjust parsing if TXT format differs
-    except Exception as e:
-        print(f"Failed to fetch {url}: {e}")
-        return []
+            current_group = group
+            channel_name = name
+            keep_channel = False
 
-def filter_entry(entry, groups, channels, keywords):
-    """Check if an entry matches any group, channel, or keyword."""
-    extinf = entry.get('extinf', '').lower()
-    return (
-        any(g.lower() in extinf for g in groups) or
-        any(c.lower() in extinf for c in channels) or
-        any(k.lower() in extinf for k in keywords)
-    )
+            # 规则匹配
+            if group in group_filters:
+                keep_channel = True
+            if name in channel_filters:
+                keep_channel = True
+            if any(k in name for k in keyword_filters):
+                keep_channel = True
 
-def merge_similar_channels(entries):
-    """Merge entries with identical URLs, combining their EXTINF metadata."""
-    url_to_entry = {}
-    for entry in entries:
-        url = entry['url']
-        if url in url_to_entry:
-            existing = url_to_entry[url]
-            existing['extinf'] = f"{existing['extinf']}, {entry['extinf'].split(',', 1)[1]}"
-        else:
-            url_to_entry[url] = entry
-    return list(url_to_entry.values())
+            if keep_channel:
+                if channel_name not in channels_map:
+                    channels_map[channel_name] = {"extinf": line, "urls": []}
 
-def main():
-    # Read config.json
-    with open('config.json', 'r', encoding='utf-8') as f:
-        config = json.load(f)
-    
-    all_entries = []
-    for source in config.get('sources', []):
-        print(f"Processing source: {source['url']}")
-        entries = fetch_source(source)
-        
-        # Filter entries based on groups, channels, and keywords
-        filtered_entries = [
-            entry for entry in entries
-            if filter_entry(entry, source.get('groups', []), source.get('channels', []), source.get('keywords', []))
-        ]
-        
-        # Validate URLs if enabled
-        if config.get('check_urls', False):
-            valid_entries = []
-            for entry in filtered_entries:
-                if is_url_valid(entry['url']):
-                    valid_entries.append(entry)
-                else:
-                    print(f"Skipping invalid URL: {entry['url']}")
-            filtered_entries = valid_entries
-        
-        all_entries.extend(filtered_entries)
-    
-    # Merge similar channels if enabled
-    if config.get('merge_similar_channels', False):
-        all_entries = merge_similar_channels(all_entries)
-    
-    # Write to output.m3u
-    output_file = config.get('output', 'output.m3u')
-    with open(output_file, 'w', encoding='utf-8') as f:
-        f.write('#EXTM3U\n')
-        for entry in all_entries:
-            f.write(f"{entry['extinf']}\n{entry['url']}\n")
-    
-    print(f"Generated {output_file} with {len(all_entries)} entries")
+        elif line.startswith("http") and keep_channel:
+            url = line.strip()
 
-if __name__ == '__main__':
-    main()
+            # 检查链接是否有效
+            if config.get("check_urls", False):
+                if not check_url(url):
+                    invalid_links.append(f"{channel_name}: {url}")
+                    continue
+
+            # UA 处理逻辑：如果没有 UA，就加上配置里的 UA
+            if "|User-Agent=" not in url and ua_default:
+                url = f"{url}|User-Agent={ua_default}"
+
+            if channel_name:
+                res = extract_resolution(url)
+                channels_map[channel_name]["urls"].append((res, url))
+
+# 生成 m3u
+output_lines.append("#EXTM3U")
+for name, data in channels_map.items():
+    urls_sorted = sorted(data["urls"], key=lambda x: x[0], reverse=True)
+    urls_limited = [u for _, u in urls_sorted[:3]]  # 最多 3 个链接
+
+    output_lines.append(data["extinf"])
+    output_lines.extend(urls_limited)
+
+output_path = Path(config["output"])
+output_path.write_text("\n".join(output_lines), encoding="utf-8")
+
+# 生成日志
+log_path = Path("output.log")
+with log_path.open("w", encoding="utf-8") as log:
+    log.write(f"生成时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+    log.write(f"共筛选频道: {len(channels_map)}\n")
+    log.write(f"无效链接: {len(invalid_links)}\n\n")
+    if invalid_links:
+        log.write("以下链接检测失败:\n")
+        for item in invalid_links:
+            log.write(f"{item}\n")
+
+print(f"✅ 生成完成: {output_path}，共 {len(channels_map)} 个频道")
+print(f"📄 日志: {log_path}，记录了 {len(invalid_links)} 个无效链接")
