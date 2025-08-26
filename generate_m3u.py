@@ -5,22 +5,32 @@ from pathlib import Path
 from datetime import datetime
 from urllib.parse import urlparse
 import os
+import sys
 
 # 读取配置
-with open("config.json", "r", encoding="utf-8") as f:
-    config = json.load(f)
+try:
+    with open("config.json", "r", encoding="utf-8") as f:
+        config = json.load(f)
+except Exception as e:
+    print(f"❌ 配置文件 config.json 打开失败: {e}")
+    sys.exit(1)
 
 output_lines = []
 invalid_links = []
 kept_channels = []
+source_logs = []  # 每个源的说明日志
 
 def fetch_content(url, ua=None):
     headers = {}
     if ua:
         headers["User-Agent"] = ua
-    r = requests.get(url, headers=headers, timeout=15)
-    r.raise_for_status()
-    return r.text
+    try:
+        r = requests.get(url, headers=headers, timeout=20)
+        r.raise_for_status()
+        return r.text
+    except Exception as e:
+        print(f"⚠️ 获取 {url} 失败: {e}")
+        return ""
 
 def is_url_line(line: str) -> bool:
     return bool(re.match(r'^\s*(https?|rtmp|rtsp|mms|udp)://', (line or "").strip(), re.I))
@@ -37,12 +47,8 @@ def check_url(url: str, ua: str | None = None) -> bool:
             r2 = requests.get(url, headers=headers, timeout=10, stream=True, allow_redirects=True)
             return r2.status_code < 400
         return False
-    except requests.RequestException:
-        try:
-            r = requests.get(url, headers=headers, timeout=10, stream=True, allow_redirects=True)
-            return r.status_code < 400
-        except Exception:
-            return False
+    except Exception:
+        return False
 
 def parse_txt_content(content: str, ua_default: str | None, url: str):
     """把 txt 文件内容转换成标准 m3u 段落，group-title 用文件名"""
@@ -56,12 +62,15 @@ def parse_txt_content(content: str, ua_default: str | None, url: str):
         if not line.strip():
             continue
         if "," in line:
-            # 格式：频道名,URL
-            name, url_line = line.split(",", 1)
-            name, url_line = name.strip(), url_line.strip()
+            parts = line.split(",", 1)
+            if len(parts) == 2:
+                name, url_line = parts[0].strip(), parts[1].strip()
+            else:
+                name, url_line = f"{group_name}_Channel_{idx+1}", line.strip()
         else:
-            name = f"{group_name}_Channel_{idx+1}"
-            url_line = line.strip()
+            name, url_line = f"{group_name}_Channel_{idx+1}", line.strip()
+        if not url_line:
+            continue
         if "|User-Agent=" not in url_line and ua_default:
             url_line = f"{url_line}|User-Agent={ua_default}"
         m3u_segments.append(f'#EXTINF:-1 group-title="{group_name}", {name}')
@@ -69,26 +78,51 @@ def parse_txt_content(content: str, ua_default: str | None, url: str):
     return "\n".join(m3u_segments)
 
 # 处理每个源
-for source in config.get("sources", []):
+for idx, source in enumerate(config.get("sources", []), start=1):
     ua_default = None
     if isinstance(source.get("UA"), list) and source.get("UA"):
-        ua_default = source.get("UA")[0]
+        ua_default = source["UA"][0]
     elif isinstance(source.get("UA"), str):
-        ua_default = source.get("UA")
+        ua_default = source["UA"]
 
-    content = fetch_content(source["url"], ua=ua_default)
+    url = source.get("url", "")
+    if not url:
+        continue
+
+    content = fetch_content(url, ua=ua_default)
+    if not content.strip():
+        continue
 
     # 判断是不是 m3u
     if content.strip().upper().startswith("#EXTM3U"):
         lines = content.splitlines()
     else:
-        converted = parse_txt_content(content, ua_default, source["url"])
+        converted = parse_txt_content(content, ua_default, url)
         lines = ["#EXTM3U"] + converted.splitlines()
 
-    # 转小写进行匹配
-    group_filters = {g.lower() for g in source.get("groups", [])}
-    channel_filters = {c.lower() for c in source.get("channels", [])}
-    keyword_filters = [k.lower() for k in source.get("keywords", [])]
+    # 取配置里的筛选条件（允许缺失或为 null）
+    raw_groups = source.get("groups") or []
+    raw_channels = source.get("channels") or []
+    raw_keywords = source.get("keywords") or []
+
+    if isinstance(raw_groups, str):
+        raw_groups = [raw_groups]
+    if isinstance(raw_channels, str):
+        raw_channels = [raw_channels]
+    if isinstance(raw_keywords, str):
+        raw_keywords = [raw_keywords]
+
+    group_filters = {g.lower() for g in raw_groups}
+    channel_filters = {c.lower() for c in raw_channels}
+    keyword_filters = [k.lower() for k in raw_keywords]
+
+    # 日志：记录该源的筛选条件
+    if group_filters or channel_filters or keyword_filters:
+        source_logs.append(
+            f"源 {idx} ({url}) 使用的筛选条件: groups={list(group_filters)}, channels={list(channel_filters)}, keywords={keyword_filters}"
+        )
+    else:
+        source_logs.append(f"源 {idx} ({url}) 未配置筛选条件 → 全量导出")
 
     keep_channel = False
     channel_lines = []
@@ -112,8 +146,8 @@ for source in config.get("sources", []):
             current_group = group_match.group(1) if group_match else ""
             current_name = name_match.group(1).strip() if name_match else ""
 
-            # 转小写再匹配
-            if (current_group.lower() in group_filters or 
+            if (not group_filters and not channel_filters and not keyword_filters) or \
+               (current_group.lower() in group_filters or 
                 current_name.lower() in channel_filters or 
                 any(k in current_name.lower() for k in keyword_filters)):
                 keep_channel = True
@@ -122,11 +156,10 @@ for source in config.get("sources", []):
             if keep_channel:
                 if is_url_line(line):
                     raw_url = line.strip()
-                    ok = True
-                    if config.get("check_urls", False):
-                        ok = check_url(raw_url, ua=ua_default)
-                        if not ok:
-                            invalid_links.append(f"{current_name}: {raw_url}")
+                    if not raw_url:
+                        continue
+                    if config.get("check_urls", False) and not check_url(raw_url, ua=ua_default):
+                        invalid_links.append(f"{current_name}: {raw_url}")
                     final_url = raw_url
                     if "|User-Agent=" not in final_url and ua_default:
                         final_url = f"{final_url}|User-Agent={ua_default}"
@@ -141,12 +174,19 @@ for source in config.get("sources", []):
 if not output_lines or not output_lines[0].strip().upper().startswith("#EXTM3U"):
     output_lines.insert(0, "#EXTM3U")
 
+# 确保输出目录存在
 output_path = Path(config.get("output", "output.m3u"))
+output_path.parent.mkdir(parents=True, exist_ok=True)
+
 output_path.write_text("\n".join(output_lines), encoding="utf-8")
 
+# 写日志
 log_path = Path("output.log")
 with log_path.open("w", encoding="utf-8") as log:
-    log.write(f"生成时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+    log.write(f"生成时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
+    for s in source_logs:
+        log.write(s + "\n")
+    log.write("\n")
     log.write(f"共输出频道: {len(kept_channels)}\n\n")
     if kept_channels:
         log.write("已保留频道清单:\n")
