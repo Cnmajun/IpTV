@@ -9,11 +9,19 @@
       },
       {
         "url": "https://raw.githubusercontent.com/Cnmajun/IpTV/refs/heads/main/FREETV.txt",
-        "groups": ["🇲🇾 SPORTS"],
+        "groups": ["🇲🇾 SPORTS","NEWS"],
         "channels": ["HITSMovies"],
         "keywords": ["音乐", "少儿"],
         "UA": [""]
-      }
+      },
+       {
+        "url": "https://raw.githubusercontent.com/Cnmajun/IpTV/refs/heads/main/%E6%98%93%E8%A7%86%E8%85%BE.IPV6.txt",
+        "groups": [],
+        "channels": [],
+        "keywords": ["cctv", "卫视"],
+        "UA": [""]
+      },
+       
     ],
     "output": "output.m3u",
     "merge_similar_channels": true,
@@ -21,3 +29,4 @@
   }
 
   
+
