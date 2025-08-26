@@ -16,8 +16,6 @@
       },
        {
         "url": "https://raw.githubusercontent.com/Cnmajun/IpTV/refs/heads/main/%E6%98%93%E8%A7%86%E8%85%BE.IPV6.txt",
-        "groups": [],
-        "channels": [],
         "keywords": ["cctv", "卫视"],
         "UA": [""]
       },
@@ -29,4 +27,5 @@
   }
 
   
+
 
