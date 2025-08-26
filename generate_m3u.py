@@ -8,7 +8,6 @@ from datetime import datetime
 with open("config.json", "r", encoding="utf-8") as f:
     config = json.load(f)
 
-channels_map = {}
 output_lines = []
 invalid_links = []
 
@@ -27,89 +26,62 @@ def check_url(url):
     except Exception:
         return False
 
-# 提取分辨率（URL 或名字里包含 1080p/720/480 等）
-def extract_resolution(text):
-    match = re.search(r'(\d{3,4})[pi]', text.lower())
-    if match:
-        return int(match.group(1))
-    return 0
-
-# --- 轮询 UA 分配器 ---
-class UARoundRobin:
-    def __init__(self, ua_list):
-        self.ua_list = ua_list
-        self.index = 0
-    def get_next(self):
-        if not self.ua_list:
-            return None
-        ua = self.ua_list[self.index]
-        self.index = (self.index + 1) % len(self.ua_list)
-        return ua
-
+# 处理每个源
 for source in config["sources"]:
-    ua_list = source.get("UA", [])
-    ua_rr = UARoundRobin(ua_list)
-    # 拉取源文件时，优先用第一个 UA
-    ua_fetch = ua_list[0] if ua_list else None
+    ua_default = source.get("UA", [None])[0]  # 默认 UA
+    content = fetch_content(source["url"], ua=ua_default)
 
-    content = fetch_content(source["url"], ua=ua_fetch)
     lines = content.splitlines()
 
     group_filters = set(source.get("groups", []))
     channel_filters = set(source.get("channels", []))
     keyword_filters = source.get("keywords", [])
 
-    current_group = None
     keep_channel = False
-    channel_name = None
+    channel_lines = []
 
     for line in lines:
         if line.startswith("#EXTINF"):
-            # 提取组名、频道名
+            # 如果之前有缓存的频道并且需要保留 → 写入
+            if keep_channel and channel_lines:
+                output_lines.extend(channel_lines)
+
+            # 开始新的频道段
+            channel_lines = [line]
+            keep_channel = False
+
+            # 提取组名和频道名
             group_match = re.search(r'group-title="([^"]+)"', line)
             name_match = re.search(r',(.+)', line)
             group = group_match.group(1) if group_match else ""
             name = name_match.group(1).strip() if name_match else ""
 
-            current_group = group
-            channel_name = name
-            keep_channel = False
-
-            # 规则匹配
-            if group in group_filters:
-                keep_channel = True
-            if name in channel_filters:
-                keep_channel = True
-            if any(k in name for k in keyword_filters):
+            # 判断是否保留该频道
+            if group in group_filters or name in channel_filters or any(k in name for k in keyword_filters):
                 keep_channel = True
 
-            if keep_channel:
-                if channel_name not in channels_map:
-                    channels_map[channel_name] = {"extinf": line, "urls": []}
+        else:
+            # 普通行（可能是 URL 或其他）
+            if line.startswith("http") and keep_channel:
+                url = line.strip()
+                if config.get("check_urls", False):
+                    if not check_url(url):
+                        invalid_links.append(f"{name}: {url}")
+                        continue
+                if "|User-Agent=" not in url and ua_default:
+                    url = f"{url}|User-Agent={ua_default}"
+                channel_lines.append(url)
+            elif keep_channel:
+                channel_lines.append(line)
 
-        if line.startswith("http") and keep_channel:
-            url = line.strip()
-            # 检查链接是否有效
-            if config.get("check_urls", False):
-                if not check_url(url):
-                    invalid_links.append(f"{channel_name}: {url}")
-                    continue
-            # UA 处理逻辑
-            if "|User-Agent=" not in url and ua_list:
-                ua = ua_rr.get_next()
-                url = f"{url}|User-Agent={ua}"
-            if channel_name:
-                res = extract_resolution(url)
-                channels_map[channel_name]["urls"].append((res, url))
+    # 最后一个频道如果需要保留 → 写入
+    if keep_channel and channel_lines:
+        output_lines.extend(channel_lines)
 
-output_lines.append("#EXTM3U")
+# 在最前面加上 M3U 头
+output_lines.insert(0, "#EXTM3U")
 
-for name, data in channels_map.items():
-    urls_sorted = sorted(data["urls"], key=lambda x: x[0], reverse=True)
-    urls_limited = [u for _, u in urls_sorted[:3]]  # 最多 3 个链接
-    output_lines.append(data["extinf"])
-    output_lines.extend(urls_limited)
-
+# 写入输出文件
 output_path = Path(config["output"])
 output_path.write_text("\n".join(output_lines), encoding="utf-8")
 
@@ -117,12 +89,12 @@ output_path.write_text("\n".join(output_lines), encoding="utf-8")
 log_path = Path("output.log")
 with log_path.open("w", encoding="utf-8") as log:
     log.write(f"生成时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-    log.write(f"共筛选频道: {len(channels_map)}\n")
+    log.write(f"共输出频道: {output_lines.count('#EXTINF')}\n")
     log.write(f"无效链接: {len(invalid_links)}\n\n")
     if invalid_links:
         log.write("以下链接检测失败:\n")
         for item in invalid_links:
             log.write(f"{item}\n")
 
-print(f"✅ 生成完成: {output_path}，共 {len(channels_map)} 个频道")
+print(f"✅ 生成完成: {output_path}，共 {output_lines.count('#EXTINF')} 个频道")
 print(f"📄 日志: {log_path}，记录了 {len(invalid_links)} 个无效链接")
