@@ -1,269 +1,16 @@
 #EXTM3U
-#EXTINF:-1 group-logo="" group-title="MOVIES" tvg-id="" tvg-logo="https://get.perfecttv.net/logo/hbohd.png" ,141 HBO
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=a098896d2b11c5f3906a993c3ba5c610:f3f842c54cc96cbbd0bcb96a4cb8a813
-#https://get.perfecttv.net/astro_1080.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=hbo|User-Agent=Mozilla
-http://linearjitp-playback.astro.com.my/dash-wv/linear/2304/default_ott.mpd
-
-#EXTINF:-1 tvg-id="HBOHits" tvg-name="HBO Hits" group-title="MOVIES" group-logo="" tvg-logo="https://get.perfecttv.net/logo/hbohits.png",142 HBO HITS
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=5d600eb70944d681c26c1f48fbe61f10:796139ba05a2ab425f978c7fd98b4372
-https://get.perfecttv.net/astro_1080.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=hbohits
-
-#EXTINF:-1 group-logo="" group-title="MOVIES" tvg-id="414.astro" tvg-logo="https://get.perfecttv.net/logo/hbofamily.png" ,144 HBO Family  
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=2b9ff7cc1a3dc9fef47cc5773472d510:7e37588e893ab9252e505bd6dda35beb
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://get.perfecttv.net/dash.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=hbofamily
-
-#EXTINF:-1 tvg-id="501.unifi" tvg-name="BBC Earth" group-title="KNOWLEDGE" tvg-logo="https://get.perfecttv.net/logo/bbcearth.png" ch-number="501",190 BBC Earth
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=dbf62ff0804bc5b8d523ef009d786310:bb1bdb27cc5fe1ec637d257999344cc3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-http://linearjitp-playback.astro.com.my/dash-wv/linear/5051/default_ott.mpd
-
-#EXTINF:-1 tvg-id="512.unifi" ch-number="512" tvg-name="BBC Lifestyle" group-title="KNOWLEDGE" tvg-logo="https://get.perfecttv.net/logo/bbclifestyle.png",200 BBC Lifestyle
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f429292dc744f284355308561577ac10:b12e1f894129c517dc8845baaeebec8a
-https://get.perfecttv.net/dash.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=bbclife
-
-#EXTINF:-1 tvg-id="601.unifi" ch-number="601" tvg-name="BBC News" tvg-logo="https://get.perfecttv.net/logo/bbcnews.png" group-title="NEWS",601 BBC Newsᶠʰᵈ
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=01767d1c2315c0e9556f477fb1f0c710:77ec0eeb21c07812fd7c58628366ccb3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-http://linearjitp-playback.astro.com.my/dash-wv/linear/1008/default_ott.mpd
-
-#EXTINF:-1 tvg-id="" tvg-name="" group-title="⚽ SPORTS FHD" tvg-logo="https://get.perfecttv.net/logo/arenafhd.png",801 Arena FHD
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-##KODIPROP:inputstream.adaptive.license_key=6eb2578e2bf9476a92d17f5dd1d2590d:a7239ce27d1a60592f60b5c02f214331
-#KODIPROP:inputstream.adaptive.license_key=efda647dad723563b625be8c05ee6110:6776985938b332164b97b81fe566a34a
-#https://get.perfecttv.net/1080.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=arenafhd|authorization=Bearer 
-https://get.perfecttv.net/dash2.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=arena
-
-#EXTINF:-1 tvg-id="" tvg-name="" group-title="⚽ SPORTS FHD" tvg-logo="https://get.perfecttv.net/logo/arena2fhd.png",802 Arena 2 FHD
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-##KODIPROP:inputstream.adaptive.license_key=03768503343f451faa1b1f1f3d33b463:29e3bf0c0910c77bf0fcf8b30ebcd256
-#KODIPROP:inputstream.adaptive.license_key=ead0335d60401225727a6d531e9c2710:1ee3b252227c5c2ec9378c833d2e14ff
-#https://get.perfecttv.net/1080.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=arena2fhd|authorization=Bearer 
-https://get.perfecttv.net/dash2.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=arena2fhd
-
-#EXTINF:-1 tvg-id="" tvg-name="" group-title="⚽ SPORTS FHD" tvg-logo="https://get.perfecttv.net/logo/arenabolafhd.png",803 Arena Bola FHD
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=fb06bb8266fb4a998e7c4e7e90461556:52242587d8106c4b3ed596c7a56b4e28
-https://get.perfecttv.net/jwt.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=bola1fhd|user-agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0
-
-#EXTINF:-1 tvg-id="" tvg-name="" group-title="⚽ SPORTS FHD" tvg-logo="https://get.perfecttv.net/logo/arenabola2fhd.png",804 Arena Bola 2 FHD
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f166a88a7f1b40bba2e399bf2f972365:abf14067e089861730f4c6ff24b52dba
-https://get.perfecttv.net/jwt.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=bola2fhd|user-agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0
-
-#EXTINF:-1 tvg-id="" tvg-name="" group-title="⚽ SPORTS FHD" tvg-logo="https://get.perfecttv.net/logo/premierleaguefhd.png",805 EPL FHD
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=bb2dc3cfa3024039ae59b55e6b0b5de5:03d25d6ceb16fc4e007697e9d2124fac
-##KODIPROP:inputstream.adaptive.license_key=f749ab71f227999bfb098f73359aac10:4f15413f7e4767b50c48e19b7f9a2fcc
-#https://get.perfecttv.net/dash2.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=epl1fhd 
-https://get.perfecttv.net/jwt.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=epl1fhd
-
-#EXTINF:-1 tvg-id="" tvg-name="" group-title="⚽ SPORTS FHD" tvg-logo="https://get.perfecttv.net/logo/premierleague2fhd.png",806 EPL2 FHD
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=537a246e0284449a862dfd4dc43b7c79:f3829c61a21ceae05ee5d5260679c210
-##KODIPROP:inputstream.adaptive.license_key=c1dc92f0789f112503c0db3bde2f1210:ddfa6e8d549b4d5177a9cade7f9a0b23
-#https://get.perfecttv.net/dash2.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=epl2fhd
-https://get.perfecttv.net/jwt.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=epl2fhd
-
-#EXTINF:-1 tvg-id="AstroSupersportUHD" tvg-name="" group-title="⚽ SPORTS FHD"  tvg-logo="https://get.perfecttv.net/logo/premierleague3fhd.png",806 EPL3 FHD
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#EXTHTTP:{"User-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1ece3ecb41699e855c6dc9a283908210:ba08be767e1a5e89777e68a6998a8c19
-https://get.perfecttv.net/dash.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=epl3
-
-
-#EXTINF:-1 tvg-id="ASTRO GRANDSTAND" tvg-name="ASTRO GRANSTAND FHD" ch-number="810" tvg-logo="http://linear-poster.astro.com.my/prod/logo/AstroGrandstand_2024.png" group-title="⚽ SPORTS FHD",810 Astro Grandstand
-https://wahyu1ptv.pages.dev/AstroGrandStand-HD.m3u8
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f749ab71f227999bfb098f73359aac10:4f15413f7e4767b50c48e19b7f9a2fcc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; TMRV075G Build/UKQ1.230924.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/132.0.6834.163 Mobile Safari/537.36
-#EXTINF:-1 tvg-id="AstroPremierLeague" tvg-name="AstroPremierLeague" ch-number="811" group-title="⚽ SPORTS FHD" tvg-logo="http://linear-poster.astro.com.my/prod/logo/AstroPremierLeague_2024.png",811 Astro Premier League
-http://jomtv.vip:2082/live/Erny112/Jtv0987/173.ts
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=c1dc92f0789f112503c0db3bde2f1210:ddfa6e8d549b4d5177a9cade7f9a0b23
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; TMRV075G Build/UKQ1.230924.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/132.0.6834.163 Mobile Safari/537.36
-#EXTINF:-1 tvg-id="AstroPremierLeague2" tvg-name="AstroPremierLeague2" ch-number="812" group-title="⚽ SPORTS FHD" tvg-logo="http://linear-poster.astro.com.my/prod/logo/AstroPremierLeague2_2024.png",812 Astro Premier League 2
-http://jomtv.vip:2082/live/Erny112/Jtv0987/179.ts
-
-#EXTINF:-1 tvg-id="818.astro" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/568_144.png" group-title="⚽ SPORTS FHD",Premier League 4
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey 
-#KODIPROP:inputstream.adaptive.license_key=3225f837a4b95d6e46683c53818c1710:3e1b57c06699c7e408e7aa49ff57d4f4
-https://linearjitp-playback.astro.com.my/dash-wv/linear/5111/default_ott.mpd
-
-#EXTINF:-1 tvg-id="819.astro" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/570_144.png" group-title="⚽ SPORTS FHD",Premier League 5
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=229670469469aa6f78bc5bbe10071810:3b3ede68e8bb9d0d4e3b4517c422cccf
-https://linearjitp-playback.astro.com.my/dash-wv/linear/5113/default_ott.mpd
-
-#EXTINF:-1 group-logo="" group-title="⚽ SPORTS FHD" tvg-id="814.astro" tvg-logo="https://get.perfecttv.net/logo/footballfhd.png" group-logo="",809 Astro Football
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=79f4028730acca9ab8b00f26158ddb10:91febe843c08c7cc523efd827292e40e
-https://get.perfecttv.net/dash.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=astrofootball
-
-
-#EXTINF:-1 tvg-id="" tvg-name="" group-title="⚽ SPORTS FHD" tvg-logo="https://get.perfecttv.net/logo/badmintonfhd.png",809 Badminton FHD
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1bca05447d354cb4913a66e125fb75ef:45253aa554c444961fb6a4432abb6b1c
-https://get.perfecttv.net/1080.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=badmintonfhd|authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDkyMDQ3MDUsImlzcyI6IlZSIiwiZXhwIjoxNzQ5MjQ5MDAwLCJ3bXZlciI6Mywid21pZGZtdCI6ImFzY2lpIiwid21pZHR5cCI6MSwid21rZXl2ZXIiOjMsIndtdG1pZHZlciI6NCwid21pZGxlbiI6NTEyLCJ3bW9waWQiOjMyLCJ3bWlkIjoiNGI5ZDUzNTEtMWE4ZS00NjJkLTg2YjYtYzZlYTBmZWUzYmJjIiwiZmlsdGVyIjoiKHR5cGU9PVwidmlkZW9cIiYmRGlzcGxheUhlaWdodDw9NDgwKXx8KHR5cGU9PVwiYXVkaW9cIiYmZm91ckNDIT1cImFjLTNcIil8fCh0eXBlIT1cInZpZGVvXCImJnR5cGUhPVwiYXVkaW9cIikiLCJwYXR0ZXJuIjoiNTE3MCJ9.4KWKLZ0yfRqTLhSJuQg5b3OR8xYL8r9jqo0mTG6El2s
-
-
-#EXTINF:-1 tvg-id="ASTRO BADMINTON 2" tvg-name="" group-title="⚽ SPORTS FHD" tvg-logo="https://www.appcreator24.com/srv/imgs/seccs/34738728_ico.png?ts=1746332765", ASTRO BADMINTON 2 FHD
-https://ktpremium.shop/live/FAQRUKHAIRI/01155094696/1010679.ts|user-agent=IPTVPROPlayer
-
-
-#EXTINF:-1 tvg-id="817.astro" tvg-logo="https://get.perfecttv.net/logo/sportplusfhd.png" group-title="⚽ SPORTS FHD",Sports Plus
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=81352bc47ec1177b321ee65ac1be7f10:c8b886142005d7e5067c8717777eaac4
-http://linearjitp-playback.astro.com.my/dash-wv/linear/5171/default_ott.mpd
-
-#EXTINF:-1 tvg-id="SONY TEN SPORTS 1" tvg-name="SONY TEN SPORTS 1" group-title="⚽ SPORTS FHD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_HD_Logo_CLR.png", SONY TEN SPORTS 1 FHD
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=44dd9cd370b08a868ead115fe84ecfde:bff19ab0a51cf14e848389b152913fd0
-https://tataplay.slivcdn.com//hls/live/2011747/TEN1HD/master.m3u8
-
-
-#EXTINF:-1 tvg-id="SONY TEN SPORTS 2" tvg-name="SONY TEN SPORTS 2" group-title="⚽ SPORTS FHD" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen2_HD_Logo_CLR.png", SONY TEN SPORTS 2 FHD
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=44dd9cd370b08a868ead115fe84ecfde:bff19ab0a51cf14e848389b152913fd0
-https://tataplay.slivcdn.com/hls/live/2020434/TEN2HD/master.m3u8
-
-
-#EXTINF:-1 tvg-id="SONY TEN SPORTS 3" tvg-name="SONY TEN SPORTS 3" group-title="⚽ SPORTS FHD" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen3_HD_Logo_CLR.png", SONY TEN SPORTS 3 FHD
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=44dd9cd370b08a868ead115fe84ecfde:bff19ab0a51cf14e848389b152913fd0
-https://tataplay.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8
-
-
-#EXTINF:-1 tvg-id="SONY TEN SPORTS 4" tvg-name="SONY TEN SPORTS 4" group-title="⚽ SPORTS FHD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png", SONY TEN SPORTS 4 FHD
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=44dd9cd370b08a868ead115fe84ecfde:bff19ab0a51cf14e848389b152913fd0
-https://tataplay.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8
-
-
-#EXTINF:-1 tvg-id="SONY TEN SPORTS 5" tvg-name="SONY TEN SPORTS 5" group-title="⚽ SPORTS FHD" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen5_HD.png", SONY TEN SPORTS 5 FHD
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=44dd9cd370b08a868ead115fe84ecfde:bff19ab0a51cf14e848389b152913fd0
-https://tataplay.slivcdn.com/hls/live/2020593/SONYSIXHD/master.m3u8
-
-#EXTINF:-1 tvg-id="PEACOCOK|WWE FHD" tvg-name="" group-title="⚽ SPORTS FHD"  tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlQDMycJCPt4e-fUkJwWX_Ny-5JuexSH8bkA&s", PEACOCK|WWE FHD
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#EXTHTTP:{"User-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1ece3ecb41699e855c6dc9a283908210:ba08be767e1a5e89777e68a6998a8c19
-http://cool365.xyz:900/live/4160189881/DB4ACD54/9106.ts
-
-#EXTINF:-1 tvg-id="WWE NETWORK FHD" tvg-name="" group-title="⚽ SPORTS FHD"  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/88/WWE_Network_logo.svg", WWE NETWORK FHD
-https://2ejjcqijfmp.shop.top/AccessLog2/108085_SD/apache.m3u8
-#EXTVLCOPT:http-user-agent=IPTVPROPlayer
-
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1a655189ab5c49eb235308c2b1a9e710:3c4508af348844107f5e026a4fd6b16e
-#EXTINF:-1 tvg-id="820.astro" tvg-logo="http://linear-poster.astro.com.my/prod/logo/beINSPORT1.png" group-title="⚽ SPORTS FHD",beIN Sports 1
-http://linearjitp-playback.astro.com.my/dash-wv/linear/408/default_ott.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=39c175581e237eff9559607eb9b23c10:5102b12aac7756c65dcb46a101d960d3
-#EXTINF:-1 tvg-id="821.astro" tvg-logo="http://linear-poster.astro.com.my/prod/logo/beINSPORTS2.png" group-title="⚽ SPORTS FHD",beIN Sports 2
-http://linearjitp-playback.astro.com.my/dash-wv/linear/5066/default_ott.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=20c884ef8ed26b2762f8b1a78f2d1910:042a21bf236ca729b1e343ed6e0a6337
-#EXTINF:-1 tvg-id="822.astro" tvg-logo="http://linear-poster.astro.com.my/prod/logo/beIN_SPORTS3_V2.png" group-title="⚽ SPORTS FHD",beIN Sports 3
-http://linearjitp-playback.astro.com.my/dash-wv/linear/2705/default_ott.mpd
-
-#EXTINF:-1 tvg-id="SPOTV FHD" tvg-name="" group-title="⚽ SPORTS FHD" tvg-logo="https://get.perfecttv.net/logo/spotvfhd.png", SPOTV FHD
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=912760c409eb5aff3e060422c502f410:bea2d0f89fb3fbafa1fc9f34ba8734a6
-#KODIPROP:inputstream.adaptive.stream_headers=Cookie%3D_ga_16T9K7D6EK%3A%20%22GS1.1.1687128145.1.0.1687128165.40.0.0%22
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://astro.com.my
-http://cool365.xyz:900/live/4160189881/DB4ACD54/13132.ts
-
-#EXTINF:-1 tvg-id="SPOTV 2 FHD" tvg-name="" group-title="⚽ SPORTS FHD" tvg-logo="https://get.perfecttv.net/logo/spotv2fhd.png", SPOTV 2 FHD
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=912760c409eb5aff3e060422c502f410:bea2d0f89fb3fbafa1fc9f34ba8734a6
-#KODIPROP:inputstream.adaptive.stream_headers=Cookie%3D_ga_16T9K7D6EK%3A%20%22GS1.1.1687128145.1.0.1687128165.40.0.0%22
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://astro.com.my
-http://cool365.xyz:900/live/4160189881/DB4ACD54/13131.ts
-
-#EXTINF:-1 tvg-id="BEIN SPORTS 1 FRANCE FHD" tvg-name="" group-title="⚽ SPORTS FHD" tvg-logo="https://get.perfecttv.net/logo/bein1fhd.png", BEIN SPORTS 1 FRANCE FHD
-#EXTVLCOPT:http-user-agent=IPTVPROPlayer
-http://cool365.xyz:900/live/4160189881/DB4ACD54/615.ts
-
-#EXTINF:-1 tvg-id="BEIN SPORTS 2 FRANCE FHD" tvg-name="" group-title="⚽ SPORTS FHD" tvg-logo="https://get.perfecttv.net/logo/bein2fhd.png", BEIN SPORTS 2 FRANCE FHD
-#EXTVLCOPT:http-user-agent=IPTVPROPlayer
-http://cool365.xyz:900/live/4160189881/DB4ACD54/616.ts
-
-#EXTINF:-1 tvg-id="BEIN SPORTS FRANCE 3 FHD" tvg-name="" group-title="⚽ SPORTS FHD" tvg-logo="https://get.perfecttv.net/logo/bein3fhd.png", BEIN SPORTS 3 FRANCE FHD
-#EXTVLCOPT:http-user-agent=IPTVPROPlayer
-http://cool365.xyz:900/live/4160189881/DB4ACD54/617.ts
-
-#EXTINF:-1 tvg-id="F1 FHD" tvg-name="" group-title="⚽ SPORTS FHD" tvg-logo="https://tvprofil.com/img/kanali-logo/Sky_Sports_F1_GB_logo.png?1734014987", F1 FHD
-http://cool365.xyz:900/live/4160189881/DB4ACD54/400229036.ts|user-agent=IPTVPROPlayer
-
-#EXTINF:-1 tvg-id="TNT SPORTS 1 FHD" tvg-name="" group-title="⚽ SPORTS FHD" tvg-logo="https://media.info/l/o/1/1539.1689778027.png", TNT SPORTS 1 FHD
-http://wayforward.xyz/live/uugjnauw/zNtU7zdSk/53850.ts|user-agent=IPTVPROPlayer
-
-#EXTINF:-1 tvg-id="TNT SPORTS 2 FHD" tvg-name="" group-title="⚽ SPORTS FHD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d8/TNT_Sports_2_%282023%29.svg/revision/latest/scale-to-width-down/300?cb=20230717230828", TNT SPORTS 2 FHD
-http://wayforward.xyz/live/uugjnauw/zNtU7zdSk/53851.ts|user-agent=IPTVPROPlayer
-
-#EXTINF:-1 tvg-id="TNT SPORTS 3 FHD" tvg-name="" group-title="⚽ SPORTS FHD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/6d/TNT_Sports_3_%282023%29.svg/revision/latest/scale-to-width-down/300?cb=20230717230836 ", TNT SPORTS 3 FHD
-http://wayforward.xyz/live/uugjnauw/zNtU7zdSk/53852.ts|user-agent=IPTVPROPlayer
-
-#EXTINF:-1 tvg-id="TNT SPORTS 4 FHD" tvg-name="" group-title="⚽ SPORTS FHD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c4/TNT_Sports_4_2023.svg/revision/latest/scale-to-width-down/300?cb=20230407000218", TNT SPORTS 4 FHD
-http://wayforward.xyz/live/uugjnauw/zNtU7zdSk/53853.ts|user-agent=IPTVPROPlayer
-
-#EXTINF:-1 tvg-id="FUBO SPORTS NETWORK FHD" tvg-name="" group-title="⚽ SPORTS FHD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/98/Fubo_Sports_Network.png/revision/latest?cb=20250117231918", FUBO SPORTS NETWORK FHD
-#EXTVLCOPT:http-user-agent=IPTVPROPlayer
-http://zkbvzkj.megahdtv.xyz:900/live/1103581436/4099381829/473384.ts
+#EXTINF:-1 group-title="perfecttv", #EXTINF:-1 group-logo="" group-title="MOVIES" tvg-id="" tvg-logo="https://get.perfecttv.net/logo/hbohd.png"
+141 HBO
+#EXTINF:-1 group-title="perfecttv", #EXTINF:-1 tvg-id="HBOHits" tvg-name="HBO Hits" group-title="MOVIES" group-logo="" tvg-logo="https://get.perfecttv.net/logo/hbohits.png"
+142 HBO HITS
+#EXTINF:-1 group-title="perfecttv", #EXTINF:-1 group-logo="" group-title="MOVIES" tvg-id="414.astro" tvg-logo="https://get.perfecttv.net/logo/hbofamily.png"
+144 HBO Family
+#EXTINF:-1 group-title="perfecttv", #EXTINF:-1 tvg-id="501.unifi" tvg-name="BBC Earth" group-title="KNOWLEDGE" tvg-logo="https://get.perfecttv.net/logo/bbcearth.png" ch-number="501"
+190 BBC Earth
+#EXTINF:-1 group-title="perfecttv", #EXTINF:-1 tvg-id="512.unifi" ch-number="512" tvg-name="BBC Lifestyle" group-title="KNOWLEDGE" tvg-logo="https://get.perfecttv.net/logo/bbclifestyle.png"
+200 BBC Lifestyle
+#EXTINF:-1 group-title="perfecttv", #EXTINF:-1 tvg-id="601.unifi" ch-number="601" tvg-name="BBC News" tvg-logo="https://get.perfecttv.net/logo/bbcnews.png" group-title="NEWS"
+601 BBC Newsᶠʰᵈ
 #EXTINF:-1 tvg-id="TVSUKAN" ch-number="111" tvg-name="SUKAN RTM" group-title="🇲🇾 SPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/02/RTM_HD_Sports.png", Sukan RTM
 #EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
 https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/playlist.m3u8?id=4
@@ -774,3 +521,490 @@ https://webtvstream.bhtelecom.ba/hls6/arena4.mpd
 
 
 ####################### 🇲🇾 SPORTS JSS ########################
+
+#EXTINF:-1 tvg-id="Astro.Awani.HD.my" tvg-name="Astro Awani HD" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/436_144.png" group-title="NEWS", Astro Awani
+https://d2idp3hzkhjpih.cloudfront.net/out/v1/4b85d9c2bf97413eb0c9fd875599b837/index.m3u8
+
+#EXTINF:-1 tvg-id="RTMK04" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/72/Berita_RTM_v2.png" group-title="NEWS", BERITA RTM
+https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"OaJ6osyEoptmX8xNv5xUtg", "kid":"FAa78hjKFPlnA0/PSr93EA" } ], "type":"temporary" }
+#EXTINF:-1 tvg-id="502.astro" tvg-logo="https://linear-poster.astro.com.my/prod/logo/BNC_v3.png" group-title="NEWS",Bernama
+https://linearjitp-playback.astro.com.my/dash-wv/linear/1114/default_primary.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1406bbf218ca14f967034fcf4abf7710:39a27aa2cc84a29b665fcc4dbf9c54b6
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://astrogo.astro.com.my//&user-agent=Mozilla/5.0 (Linux; Android 10; MI 9 Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.58 Mobile Safari/537.36
+#EXTINF:-1 tvg-id="502" tvg-logo="http://linear-poster.astro.com.my/prod/logo/BNC_v3.png" group-title="NEWS",BERNAMA
+http://linearjitp-playback.astro.com.my/dash-wv/linear/1114/default_ott.mpd
+
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-name="CNN Indonesia" tvg-logo="https://i.imgur.com/2BXCg0x.jpg" group-title="NEWS", CNN INA
+https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/index.m3u8
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"bDxJgROr/99FTck1MZp5TQ", "kid":"sfvQh055I/WwWSmgQqoGEA" } ], "type":"temporary" }
+#EXTINF:-1 tvg-id="513.astro" tvg-logo="https://linear-poster.astro.com.my/prod/logo/AlJazeera_v1.png" group-title="NEWS",Al Jazeera News
+https://linearjitp-playback.astro.com.my/dash-wv/linear/2110/default_primary.mpd
+;https://linearjitp-playback.astro.com.my/dash-wv/linear/2110/default_ott.mpd
+
+#EXTINF:-1 tvg-id="602.unifi" tvg-logo="https://docdog.top/Logotv/countries/uk/aljazeera.png" group-title="NEWS", AlJazeera
+https://live-hls-web-aje-fa.getaj.net/AJE/01.m3u8
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1b618a291cece44c9845dddfc4fd9b10:bf7e1b97555c4acb7455f711b2a9ff16
+#EXTINF:-1 tvg-id="511" tvg-logo="http://linear-poster.astro.com.my/prod/logo/CNN_v1.png" group-title="NEWS",CNN HD
+http://linearjitp-playback.astro.com.my/dash-wv/linear/2503/default_ott.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://docdog.top/Logotv/countries//cnn.png" group-title="NEWS", CNN USA
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=01767d1c2315c0e9556f477fb1f0c710:77ec0eeb21c07812fd7c58628366ccb3
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://astrogo.astro.com.my//&user-agent=Mozilla/5.0 (Linux; Android 10; MI 9 Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.58 Mobile Safari/537.36
+#EXTINF:-1 tvg-id="512" tvg-name="BBC World News" tvg-logo="http://linear-poster.astro.com.my/prod/logo/BBC_World_News_v1.png" group-title="NEWS",BBC World News HD
+http://linearjitp-playback.astro.com.my/dash-wv/linear/1008/default_ott.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"nnBhYfAvuZy2ktKWVHBJTg", "kid":"/GbvDuNbW6Y53A4TxfipEA" } ], "type":"temporary" }
+#EXTINF:-1 tvg-id="503.astro" tvg-logo="https://linear-poster.astro.com.my/prod/logo/CGTN_v1.png" group-title="NEWS",CGTN 
+https://linearjitp-playback.astro.com.my/dash-wv/linear/5019/default_primary.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=fc66ef0ee35b5ba639dc0e13c5f8a910:9e706161f02fb99cb692d2965470494e
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://astrogo.astro.com.my//&user-agent=Mozilla/5.0 (Linux; Android 10; MI 9 Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.58 Mobile Safari/537.36
+#EXTINF:-1 tvg-id="503" tvg-logo="http://linear-poster.astro.com.my/prod/logo/CGTN_v1.png" group-title="NEWS",CGTN
+http://linearjitp-playback.astro.com.my/dash-wv/linear/5019/default_ott.mpd
+
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"YCgnqHDUmGLRoj8pEpV7TA", "kid":"w6OPE0BTF1mhype8XYDIEA" } ], "type":"temporary" }
+#EXTINF:-1 tvg-id="516.astro" tvg-logo="https://linear-poster.astro.com.my/prod/logo/CNBC_v1.png" group-title="NEWS",CNBC 
+https://linearjitp-playback.astro.com.my/dash-wv/linear/900/default_primary.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"sNrddLcT5LKf0n4UfK5xMw", "kid":"S+9/wby2vX8ofe+UDjjLEA" } ], "type":"temporary" }
+#EXTINF:-1 tvg-id="514.astro" tvg-logo="https://linear-poster.astro.com.my/prod/logo/Sky_News_HD_v1.png" group-title="NEWS",Sky News
+https://linearjitp-playback.astro.com.my/dash-wv/linear/2102/default_primary.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6a9fcc2f94258cee0f2108687c42e710:99bd7c1ff2391244b4e40e08bef1109d
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://astrogo.astro.com.my//&user-agent=Mozilla/5.0 (Linux; Android 10; MI 9 Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.58 Mobile Safari/537.36
+#EXTINF:-1 tvg-id="518" tvg-logo="http://linear-poster.astro.com.my/prod/logo/ABC_v1.png" group-title="NEWS",ABC Australia
+http://linearjitp02-playback.astro.com.my/dash-wv/linear/904/default_ott.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=db1343545ae25ddecf8dfa4422f35410:79a044b30d64f5c37e6d45d503cbb280
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://astrogo.astro.com.my//&user-agent=Mozilla/5.0 (Linux; Android 10; MI 9 Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.58 Mobile Safari/537.36
+#EXTINF:-1 tvg-id="517" tvg-name="Bloomberg TV" tvg-logo="http://linear-poster.astro.com.my/prod/logo/logo_979_v3.png" group-title="NEWS",Bloomberg TV HD
+http://linearjitp-playback.astro.com.my/dash-wv/linear/5020/default_ott.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f812aeae6be5b924a8181b512d5d7910:44275884ee394d05081fde395ff6e415
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://astrogo.astro.com.my//&user-agent=Mozilla/5.0 (Linux; Android 10; MI 9 Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.58 Mobile Safari/537.36
+#EXTINF:-1 tvg-id="515" tvg-name="CNA" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Channel_News_Asia_v1.png" group-title="NEWS",CNA HD
+http://linearjitp02-playback.astro.com.my/dash-wv/linear/605/default_ott.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c3a38f1340531759a1ca97bc5d80c810:602827a870d49862d1a23f2912957b4c
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://astrogo.astro.com.my//&user-agent=Mozilla/5.0 (Linux; Android 10; MI 9 Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.58 Mobile Safari/537.36
+#EXTINF:-1 tvg-id="516" tvg-logo="http://linear-poster.astro.com.my/prod/logo/CNBC_v1.png" group-title="NEWS",CNBC Asia
+http://linearjitp-playback.astro.com.my/dash-wv/linear/900/default_ott.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7edf3bd590cf337f721a2e5bec361510:13bb829ce4836ccf74071c45993978c5
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://astrogo.astro.com.my//&user-agent=Mozilla/5.0 (Linux; Android 10; MI 9 Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.58 Mobile Safari/537.36
+#EXTINF:-1 tvg-id="521" tvg-logo="http://linear-poster.astro.com.my/prod/logo/DW_v1.png" group-title="NEWS",DW English
+http://linearjitp02-playback.astro.com.my/dash-wv/linear/9984/default_ott.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3b0c1cebd0c4518d600f52c354ed1910:76d409ffc4eaa012c61d8c31bd13df5d
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://astrogo.astro.com.my//&user-agent=Mozilla/5.0 (Linux; Android 10; MI 9 Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.58 Mobile Safari/537.36
+#EXTINF:-1 tvg-id="522" tvg-name="France24" group-title="NEWS" tvg-logo="https://iili.io/1mezTg.png",France24
+http://linearjitp02-playback.astro.com.my/dash-wv/linear/9985/default_ott.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://docdog.top/Logotv/countries//abcnews.png" group-title="NEWS", ABC News New York
+https://content.uplynk.com/channel/ext/72750b711f704e4a94b5cfe6dc99f5e1/wabc_24x7_news.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://docdog.top/Logotv/countries//abcnewslive.png" group-title="NEWS", ABC NEWS LIVE
+https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://docdog.top/Logotv/countries/united-states/cbs-news-us.png" group-title="NEWS", CBS NEWS
+https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
+
+#EXTINF:-1 tvg-id="642.unifi" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/287_144.png" group-title="NEWS", DW English
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://docdog.top/Logotv/countries//newsmax.png" group-title="NEWS", NEWSMAX
+https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://provider-static.plex.tv/epg/images/ott_channels/logos/usatoday_logo_dark_v2.png" group-title="NEWS", USA TODAY
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00731-gannettcoinc-usatodaynews-plex/playlist.m3u8
+
+#EXTINF:-1 tvg-id="613.unifi" tvg-logo="https://a.jsrdn.com/hls/22975/wion-world-is-one-news/logo_20210608_192358_68.png" group-title="NEWS", Wion
+https://d7x8z4yuq42qn.cloudfront.net/index_1.m3u8
+
+
+
+
+
+
+
+##################### [MY/ID] DOCUMENTARY ###############################
+
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV1
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000018602/index.m3u8?channel-id=ystenlive&Contentid=1000000001000018602&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV1
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000021973/index.m3u8?channel-id=ystenlive&Contentid=1000000001000021973&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV1
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000265001/index.m3u8?channel-id=ystenlive&Contentid=1000000005000265001&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV1
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000001000004953/index.m3u8?channel-id=bestzb&Contentid=5000000001000004953&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV1
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000004000002226/index.m3u8?channel-id=bestzb&Contentid=5000000004000002226&livemode=1&stbId=3$7.5M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV1
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000010000030810/index.m3u8?channel-id=bestzb&Contentid=5000000010000030810&livemode=1&stbId=3$3.5M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV1
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000011000265001/index.m3u8?channel-id=bestzb&Contentid=5000000011000265001&livemode=1&stbId=3$3M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV1
+http://[2409:8087:5e08:25::4]:6610/000000001000/reallive-cctv1/index.m3u8?channel-id=ystenlive&Contentid=reallive-cctv1&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV2
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000012442/index.m3u8?channel-id=ystenlive&Contentid=1000000001000012442&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV2
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000023315/index.m3u8?channel-id=ystenlive&Contentid=1000000001000023315&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV2
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000005000031113/index.m3u8?channel-id=bestzb&Contentid=5000000005000031113&livemode=1&stbId=3$4M%20SD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV2
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000011000031101/index.m3u8?channel-id=bestzb&Contentid=5000000011000031101&livemode=1&stbId=3$FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV3
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000011218/index.m3u8?channel-id=ystenlive&Contentid=1000000001000011218&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV3
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000011000265003/index.m3u8?channel-id=bestzb&Contentid=5000000011000265003&livemode=1&stbId=3$2.5M%20FHD%20HEVC
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV4
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000002000031664/index.m3u8?channel-id=ystenlive&Contentid=1000000002000031664&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV4
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000265004/index.m3u8?channel-id=ystenlive&Contentid=1000000005000265004&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV4
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000005000030093/index.m3u8?channel-id=bestzb&Contentid=5000000005000030093&livemode=1&stbId=3$4M%20HD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV4
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000011000031102/index.m3u8?channel-id=bestzb&Contentid=5000000011000031102&livemode=1&stbId=3$FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV4
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000011000265004/index.m3u8?channel-id=bestzb&Contentid=5000000011000265004&livemode=1&stbId=3$2.5M%20FHD%20HEVC
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV5
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000004794/index.m3u8?channel-id=ystenlive&Contentid=1000000001000004794&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV5
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000265005/index.m3u8?channel-id=ystenlive&Contentid=1000000005000265005&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV5
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000006000270006/index.m3u8?channel-id=ystenlive&Contentid=1000000006000270006&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV5
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000011000265005/index.m3u8?channel-id=bestzb&Contentid=5000000011000265005&livemode=1&stbId=3$2.5M%20FHD%20HEVC
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV6
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000016466/index.m3u8?channel-id=ystenlive&Contentid=1000000001000016466&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV6
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000265006/index.m3u8?channel-id=ystenlive&Contentid=1000000005000265006&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV6
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000011000265006/index.m3u8?channel-id=bestzb&Contentid=5000000011000265006&livemode=1&stbId=3$2.5M%20FHD%20HEVC
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV7
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000017218/index.m3u8?channel-id=ystenlive&Contentid=1000000001000017218&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV7
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000024341/index.m3u8?channel-id=ystenlive&Contentid=1000000001000024341&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV7
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000265007/index.m3u8?channel-id=ystenlive&Contentid=1000000005000265007&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV7
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000005000026715/index.m3u8?channel-id=bestzb&Contentid=5000000005000026715&livemode=1&stbId=3$4M%20HD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV7
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000011000031104/index.m3u8?channel-id=bestzb&Contentid=5000000011000031104&livemode=1&stbId=3$FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV8
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000003736/index.m3u8?channel-id=ystenlive&Contentid=1000000001000003736&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV9
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000014583/index.m3u8?channel-id=ystenlive&Contentid=1000000001000014583&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV9
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000028286/index.m3u8?channel-id=ystenlive&Contentid=1000000001000028286&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV9
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000010000018384/index.m3u8?channel-id=bestzb&Contentid=5000000010000018384&livemode=1&stbId=3$3.5M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV10
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000023734/index.m3u8?channel-id=ystenlive&Contentid=1000000001000023734&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV10
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000026367/index.m3u8?channel-id=ystenlive&Contentid=1000000001000026367&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV10
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000265010/index.m3u8?channel-id=ystenlive&Contentid=1000000005000265010&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV10
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000004000012827/index.m3u8?channel-id=bestzb&Contentid=5000000004000012827&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV10
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000010000016738/index.m3u8?channel-id=bestzb&Contentid=5000000010000016738&livemode=1&stbId=3$4.5M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV11
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000002000019789/index.m3u8?channel-id=ystenlive&Contentid=1000000002000019789&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV11
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000011000031106/index.m3u8?channel-id=bestzb&Contentid=5000000011000031106&livemode=1&stbId=3$FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV12
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000001640/index.m3u8?channel-id=ystenlive&Contentid=1000000001000001640&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV12
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000032494/index.m3u8?channel-id=ystenlive&Contentid=1000000001000032494&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV12
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000265012/index.m3u8?channel-id=ystenlive&Contentid=1000000005000265012&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV12
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000011000031107/index.m3u8?channel-id=bestzb&Contentid=5000000011000031107&livemode=1&stbId=3$7M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV13
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000002000021303/index.m3u8?channel-id=ystenlive&Contentid=1000000002000021303&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV13
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000011000031108/index.m3u8?channel-id=bestzb&Contentid=5000000011000031108&livemode=1&stbId=3$FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV14
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000008170/index.m3u8?channel-id=ystenlive&Contentid=1000000001000008170&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV14
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000021349/index.m3u8?channel-id=ystenlive&Contentid=1000000001000021349&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV14
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000265013/index.m3u8?channel-id=ystenlive&Contentid=1000000005000265013&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV14
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000004000006673/index.m3u8?channel-id=bestzb&Contentid=5000000004000006673&livemode=1&stbId=3$8.8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV14
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000010000023358/index.m3u8?channel-id=bestzb&Contentid=5000000010000023358&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV15
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000002000008163/index.m3u8?channel-id=ystenlive&Contentid=1000000002000008163&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV15
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000011000031109/index.m3u8?channel-id=bestzb&Contentid=5000000011000031109&livemode=1&stbId=3$FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV16
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000006000233001/index.m3u8?channel-id=ystenlive&Contentid=1000000006000233001&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV16
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000006000233002/index.m3u8?channel-id=ystenlive&Contentid=1000000006000233002&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV17
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000056836/index.m3u8?channel-id=ystenlive&Contentid=1000000005000056836&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV17
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000265015/index.m3u8?channel-id=ystenlive&Contentid=1000000005000265015&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV17
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000006000268004/index.m3u8?channel-id=ystenlive&Contentid=1000000006000268004&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV5+
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000018504/index.m3u8?channel-id=ystenlive&Contentid=1000000001000018504&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV5+
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000020505/index.m3u8?channel-id=ystenlive&Contentid=1000000001000020505&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", CCTV5+
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000011000031127/index.m3u8?channel-id=bestzb&Contentid=5000000011000031127&livemode=1&stbId=3$FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 湖南卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000009115/index.m3u8?channel-id=ystenlive&Contentid=1000000001000009115&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 湖南卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000032695/index.m3u8?channel-id=ystenlive&Contentid=1000000001000032695&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 湖南卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000265024/index.m3u8?channel-id=ystenlive&Contentid=1000000005000265024&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 湖南卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000004000006692/index.m3u8?channel-id=bestzb&Contentid=5000000004000006692&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 湖南卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000010000030452/index.m3u8?channel-id=bestzb&Contentid=5000000010000030452&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 湖南卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000011000265010/index.m3u8?channel-id=bestzb&Contentid=5000000011000265010&livemode=1&stbId=3$2.5M%20FHD%20HEVC
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 湖南卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/6954818217931477266/index.m3u8?channel-id=ystenlive&Contentid=6954818217931477266&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 东方卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000005866/index.m3u8?channel-id=ystenlive&Contentid=1000000001000005866&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 东方卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000030202/index.m3u8?channel-id=ystenlive&Contentid=1000000001000030202&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 东方卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000265018/index.m3u8?channel-id=ystenlive&Contentid=1000000005000265018&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 东方卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000004000014098/index.m3u8?channel-id=bestzb&Contentid=5000000004000014098&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 东方卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000010000032246/index.m3u8?channel-id=bestzb&Contentid=5000000010000032246&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 东方卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000011000265007/index.m3u8?channel-id=bestzb&Contentid=5000000011000265007&livemode=1&stbId=3$2.5M%20FHD%20HEVC
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 东方卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/6081477947334326291/index.m3u8?channel-id=ystenlive&Contentid=6081477947334326291&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 江苏卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000001828/index.m3u8?channel-id=ystenlive&Contentid=1000000001000001828&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 江苏卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000004684/index.m3u8?channel-id=ystenlive&Contentid=1000000001000004684&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 江苏卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/4796340999304424198/index.m3u8?channel-id=ystenlive&Contentid=4796340999304424198&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 江苏卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000004000019351/index.m3u8?channel-id=bestzb&Contentid=5000000004000019351&livemode=1&stbId=3$7.5M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 江苏卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000010000018509/index.m3u8?channel-id=bestzb&Contentid=5000000010000018509&livemode=1&stbId=3$4.5M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 江苏卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000011000265009/index.m3u8?channel-id=bestzb&Contentid=5000000011000265009&livemode=1&stbId=3$2.5M%20FHD%20HEVC
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 广东卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000014176/index.m3u8?channel-id=ystenlive&Contentid=1000000001000014176&livemode=1&stbId=3$7.7M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 广东卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000028357/index.m3u8?channel-id=ystenlive&Contentid=1000000001000028357&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 广东卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000265034/index.m3u8?channel-id=ystenlive&Contentid=1000000005000265034&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 广东卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000004000014694/index.m3u8?channel-id=bestzb&Contentid=5000000004000014694&livemode=1&stbId=3$8.5M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 广东卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5616881981321254555/index.m3u8?channel-id=ystenlive&Contentid=5616881981321254555&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 浙江卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000009806/index.m3u8?channel-id=ystenlive&Contentid=1000000001000009806&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 浙江卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000014260/index.m3u8?channel-id=ystenlive&Contentid=1000000001000014260&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 浙江卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000265031/index.m3u8?channel-id=ystenlive&Contentid=1000000005000265031&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 浙江卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000004000007275/index.m3u8?channel-id=bestzb&Contentid=5000000004000007275&livemode=1&stbId=3$7.7M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 浙江卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000010000017320/index.m3u8?channel-id=bestzb&Contentid=5000000010000017320&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 浙江卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/7889730693553663314/index.m3u8?channel-id=ystenlive&Contentid=7889730693553663314&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 北京卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000017156/index.m3u8?channel-id=ystenlive&Contentid=1000000001000017156&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 北京卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000021288/index.m3u8?channel-id=ystenlive&Contentid=1000000001000021288&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 北京卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000004000031556/index.m3u8?channel-id=bestzb&Contentid=5000000004000031556&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 北京卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/8186688740528366039/index.m3u8?channel-id=ystenlive&Contentid=8186688740528366039&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 深圳卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000009227/index.m3u8?channel-id=ystenlive&Contentid=1000000001000009227&livemode=1&stbId=3$7.7M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 深圳卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000011645/index.m3u8?channel-id=ystenlive&Contentid=1000000001000011645&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 深圳卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000265028/index.m3u8?channel-id=ystenlive&Contentid=1000000005000265028&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 深圳卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000004000007410/index.m3u8?channel-id=bestzb&Contentid=5000000004000007410&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 深圳卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5352218613763113657/index.m3u8?channel-id=ystenlive&Contentid=5352218613763113657&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 天津卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000000831/index.m3u8?channel-id=ystenlive&Contentid=1000000001000000831&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 天津卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000003475/index.m3u8?channel-id=ystenlive&Contentid=1000000001000003475&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 天津卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000265026/index.m3u8?channel-id=ystenlive&Contentid=1000000005000265026&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 天津卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000001000030788/index.m3u8?channel-id=bestzb&Contentid=5000000001000030788&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 天津卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000004000006827/index.m3u8?channel-id=bestzb&Contentid=5000000004000006827&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 天津卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/6707942579111517572/index.m3u8?channel-id=ystenlive&Contentid=6707942579111517572&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 山东卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000012807/index.m3u8?channel-id=ystenlive&Contentid=1000000001000012807&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 山东卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000016568/index.m3u8?channel-id=ystenlive&Contentid=1000000001000016568&livemode=1&stbId=3$7.5M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 山东卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000265019/index.m3u8?channel-id=ystenlive&Contentid=1000000005000265019&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 山东卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000004000020424/index.m3u8?channel-id=bestzb&Contentid=5000000004000020424&livemode=1&stbId=3$7M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 山东卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/7347081113971056899/index.m3u8?channel-id=ystenlive&Contentid=7347081113971056899&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 山东卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/7744799445271696577/index.m3u8?channel-id=ystenlive&Contentid=7744799445271696577&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 安徽卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000020780/index.m3u8?channel-id=ystenlive&Contentid=1000000001000020780&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 安徽卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000030159/index.m3u8?channel-id=ystenlive&Contentid=1000000001000030159&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 安徽卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000265025/index.m3u8?channel-id=ystenlive&Contentid=1000000005000265025&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 安徽卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000004000023002/index.m3u8?channel-id=bestzb&Contentid=5000000004000023002&livemode=1&stbId=3$7.5M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 江西卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000013731/index.m3u8?channel-id=ystenlive&Contentid=1000000001000013731&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 江西卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000265032/index.m3u8?channel-id=ystenlive&Contentid=1000000005000265032&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 江西卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000006000268001/index.m3u8?channel-id=ystenlive&Contentid=1000000006000268001&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 江西卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000004000011210/index.m3u8?channel-id=bestzb&Contentid=5000000004000011210&livemode=1&stbId=3$7M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 黑龙江卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000001925/index.m3u8?channel-id=ystenlive&Contentid=1000000001000001925&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 黑龙江卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000009082/index.m3u8?channel-id=ystenlive&Contentid=1000000001000009082&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 黑龙江卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000265029/index.m3u8?channel-id=ystenlive&Contentid=1000000005000265029&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 黑龙江卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000004000025203/index.m3u8?channel-id=bestzb&Contentid=5000000004000025203&livemode=1&stbId=3$8.5M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 四川卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000002000016825/index.m3u8?channel-id=ystenlive&Contentid=1000000002000016825&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 四川卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000004000006119/index.m3u8?channel-id=bestzb&Contentid=5000000004000006119&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 贵州卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000002000003169/index.m3u8?channel-id=ystenlive&Contentid=1000000002000003169&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 贵州卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000004000025843/index.m3u8?channel-id=bestzb&Contentid=5000000004000025843&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 湖北卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000010355/index.m3u8?channel-id=ystenlive&Contentid=1000000001000010355&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 湖北卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000024621/index.m3u8?channel-id=ystenlive&Contentid=1000000001000024621&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 湖北卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000004000014954/index.m3u8?channel-id=bestzb&Contentid=5000000004000014954&livemode=1&stbId=3$7M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 辽宁卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000001945/index.m3u8?channel-id=ystenlive&Contentid=1000000001000001945&livemode=1&stbId=3$7.7M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 辽宁卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000002000024033/index.m3u8?channel-id=ystenlive&Contentid=1000000002000024033&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 辽宁卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000265022/index.m3u8?channel-id=ystenlive&Contentid=1000000005000265022&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 辽宁卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000004000011671/index.m3u8?channel-id=bestzb&Contentid=5000000004000011671&livemode=1&stbId=3$10M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 广西卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000002000019837/index.m3u8?channel-id=ystenlive&Contentid=1000000002000019837&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 广西卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000011000031118/index.m3u8?channel-id=bestzb&Contentid=5000000011000031118&livemode=1&stbId=3$FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 重庆卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000001000001096/index.m3u8?channel-id=ystenlive&Contentid=1000000001000001096&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 重庆卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000002000018937/index.m3u8?channel-id=ystenlive&Contentid=1000000002000018937&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 重庆卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000004000025797/index.m3u8?channel-id=bestzb&Contentid=5000000004000025797&livemode=1&stbId=3$7M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 东南卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000002000009263/index.m3u8?channel-id=ystenlive&Contentid=1000000002000009263&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 东南卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000265033/index.m3u8?channel-id=ystenlive&Contentid=1000000005000265033&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 东南卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000004000010584/index.m3u8?channel-id=bestzb&Contentid=5000000004000010584&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 吉林卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000011000031117/index.m3u8?channel-id=bestzb&Contentid=5000000011000031117&livemode=1&stbId=3$FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 吉林卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/6042486520432105075/index.m3u8?channel-id=ystenlive&Contentid=6042486520432105075&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 海南卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000004000006211/index.m3u8?channel-id=bestzb&Contentid=5000000004000006211&livemode=1&stbId=3$8M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 海南卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/7899627377857656087/index.m3u8?channel-id=ystenlive&Contentid=7899627377857656087&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 云南卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000002000024694/index.m3u8?channel-id=ystenlive&Contentid=1000000002000024694&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 云南卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000011000031120/index.m3u8?channel-id=bestzb&Contentid=5000000011000031120&livemode=1&stbId=3$FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 厦门卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000266006/index.m3u8?channel-id=ystenlive&Contentid=1000000005000266006&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 河南卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000011000031119/index.m3u8?channel-id=bestzb&Contentid=5000000011000031119&livemode=1&stbId=3$FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 河南卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/7304224304099543804/index.m3u8?channel-id=ystenlive&Contentid=7304224304099543804&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 河北卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000002000017118/index.m3u8?channel-id=ystenlive&Contentid=1000000002000017118&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 河北卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000006000040016/index.m3u8?channel-id=bestzb&Contentid=5000000006000040016&livemode=1&stbId=3$10M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 陕西卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000002000007495/index.m3u8?channel-id=ystenlive&Contentid=1000000002000007495&livemode=1&stbId=3$4M%20SD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 陕西卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000006000040017/index.m3u8?channel-id=bestzb&Contentid=5000000006000040017&livemode=1&stbId=3$4M%20SD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 山西卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000002000021220/index.m3u8?channel-id=ystenlive&Contentid=1000000002000021220&livemode=1&stbId=3$4M%20SD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 山西卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000006000040023/index.m3u8?channel-id=bestzb&Contentid=5000000006000040023&livemode=1&stbId=3$4M%20SD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 甘肃卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000002000017827/index.m3u8?channel-id=ystenlive&Contentid=1000000002000017827&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 甘肃卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000011000031121/index.m3u8?channel-id=bestzb&Contentid=5000000011000031121&livemode=1&stbId=3$FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 宁夏卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000002000031451/index.m3u8?channel-id=ystenlive&Contentid=1000000002000031451&livemode=1&stbId=3$4M%20SD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 宁夏卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000006000040022/index.m3u8?channel-id=bestzb&Contentid=5000000006000040022&livemode=1&stbId=3$4M%20SD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 青海卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000002000013359/index.m3u8?channel-id=ystenlive&Contentid=1000000002000013359&livemode=1&stbId=3$4M%20FHD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 青海卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000006000040015/index.m3u8?channel-id=bestzb&Contentid=5000000006000040015&livemode=1&stbId=3$5M%20SD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 西藏卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/6603041244077933770/index.m3u8?channel-id=ystenlive&Contentid=6603041244077933770&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 新疆卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000002000029441/index.m3u8?channel-id=ystenlive&Contentid=1000000002000029441&livemode=1&stbId=3$4M%20SD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 新疆卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000006000040018/index.m3u8?channel-id=bestzb&Contentid=5000000006000040018&livemode=1&stbId=3$4M%20SD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 内蒙古卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000002000014080/index.m3u8?channel-id=ystenlive&Contentid=1000000002000014080&livemode=1&stbId=3$4M%20SD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 大湾区卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000002000011619/index.m3u8?channel-id=ystenlive&Contentid=1000000002000011619&livemode=1&stbId=3$4M%20SD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 延边卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000266008/index.m3u8?channel-id=ystenlive&Contentid=1000000005000266008&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 兵团卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000266005/index.m3u8?channel-id=ystenlive&Contentid=1000000005000266005&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 兵团卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000006000040020/index.m3u8?channel-id=bestzb&Contentid=5000000006000040020&livemode=1&stbId=3$5M%20SD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 山东教育卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000002000004097/index.m3u8?channel-id=ystenlive&Contentid=1000000002000004097&livemode=1&stbId=3$4M%20SD
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 康巴卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/1000000005000266002/index.m3u8?channel-id=ystenlive&Contentid=1000000005000266002&livemode=1&stbId=3
+#EXTINF:-1 group-title="%E6%98%93%E8%A7%86%E8%85%BE.IPV6", 安多卫视
+http://[2409:8087:5e08:25::4]:6610/000000001000/5000000006000022124/index.m3u8?channel-id=bestzb&Contentid=5000000006000022124&livemode=1&stbId=3$2.5M%20SD
