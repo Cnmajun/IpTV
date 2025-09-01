@@ -1,32 +1,23 @@
 {
-    "sources": [
-      {
-        "url": "https://raw.githubusercontent.com/Cnmajun/IpTV/refs/heads/main/perfecttv.m3u",
-        "groups": ["news", "⚽ SPORTS FHD"],
-        "channels": ["CCTV-1", "CCTV-13"],
-        "keywords": ["HBO", "BBC"],
-        "UA": [""]
-      },
-      {
-        "url": "https://raw.githubusercontent.com/Cnmajun/IpTV/refs/heads/main/FREETV.txt",
-        "groups": ["🇲🇾 SPORTS","NEWS"],
-        "channels": ["HITSMovies"],
-        "keywords": ["音乐", "少儿"],
-        "UA": [""]
-      },
-       {
-        "url": "https://raw.githubusercontent.com/Cnmajun/IpTV/refs/heads/main/%E6%98%93%E8%A7%86%E8%85%BE.IPV6.txt",
-        "keywords": ["cctv", "卫视"],
-        "UA": [""]
-      }
-    ],
-    "output": "output.m3u",
-    "merge_similar_channels": true,
-    "check_urls": true
-  }
-
-  
-
-
-
-
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/Cnmajun/IpTV/refs/heads/main/perfecttv.m3u",
+      "groups": ["news", "⚽ SPORTS FHD"],
+      "channels": ["CCTV-1", "CCTV-13"],
+      "keywords": ["HBO", "BBC"]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Cnmajun/IpTV/refs/heads/main/FREETV.txt",
+      "groups": ["🇲🇾 SPORTS", "NEWS"],
+      "channels": ["HITSMovies"],
+      "keywords": ["音乐", "少儿"]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Cnmajun/IpTV/refs/heads/main/%E6%98%93%E8%A7%86%E8%85%BE.IPV6.txt",
+      "keywords": ["cctv", "卫视"]
+    }
+  ],
+  "output": "output.m3u",
+  "merge_similar_channels": true,
+  "check_urls": true
+}
