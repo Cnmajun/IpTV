@@ -18,3 +18,14 @@ DOMAIN-SUFFIX,mytvsuper.xyz
 DOMAIN-KEYWORD,ipip.net
 DOMAIN-KEYWORD,catvod
 DOMAIN-SUFFIX,immortalwrt.org
+
+  # 常用必备
+DST-PORT,123,DIRECT
+DOMAIN-SUFFIX,imee.meT
+DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,douyinvod.com
+DOMAIN-SUFFIX,gifshow.com
+DOMAIN-SUFFIX,apissl.ksapisrv.com
+DOMAIN-SUFFIX,edith.xiaohongshu.com
+
+
