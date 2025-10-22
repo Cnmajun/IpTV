@@ -1,0 +1,98 @@
+#EXTM3U x-tvg-url="https://epg.catvod.com/epg.xml"
+#EXTINF:-1,Global Fashion Channel (1080p)
+https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/playlist.m3u8
+#EXTINF:-1,Fashion TV
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01546-ftv-fashiontv-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="fashion-tv" tvg-name="fashion-tv" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/7995fcb8-ac5f-494c-8384-53e8f0a19cf6-fashion-tv-1602688597.jpeg" group-title="Estilo de vida" , Fashion TV
+https://amg01546-amg01546c1-rakuten-gb-9592.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01546-fashiontv-fashiontv-rakutengb/playlist.m3u8?ads_amagi_channel=1060&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=hobbies&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_market=es&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=7&ads_rtv_content_id=1278&ads_rtv_content_language=eng&ads_rtvid=271859&ads_streaming_id=78153b0c-94bd-4d26-9a55-eafb5fd7f029&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor
+
+#EXTINF:-1,Fashion TV Midnight 
+http://fash1043.cloudycdn.services/slive/_definst_/ftv_midnite_secrets_adaptive.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="FashionTVParisLOriginal.fr@SD" tvg-logo="https://i.imgur.com/GFTAN5Q.png" group-title="Lifestyle",FashionTV Paris L'Original (1080p)
+https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
+
+#EXTINF:-1  group-title="Adult",Fashion CZ
+http://lb.streaming.sk/fashiontv/stream/playlist.m3u8?fluxustv.m3u8
+#EXTINF:-1,Playboy
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/527/index.m3u8
+#EXTINF:-1,Playboy Plus
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/6242/index.m3u8
+#EXTINF:-1,Playboy LA
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/6280/index.m3u8
+#EXTINF:-1,PLAYBOY TV
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/12135/index.m3u8
+
+#EXTINF:-1 tvg-id="PbTVLatinAmericaHD.us",Playboy TV Latin America (1080p)
+http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
+#EXTINF:-1  group-title="Adult",PlayBoyHD
+http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
+
+#EXTINF:-1,MetArt FHD
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/12160/index.m3u8
+#EXTINF:-1,MetArt HD
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/6233/index.m3u8
+
+#EXTINF:-1,SexArt
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/6253/index.m3u8
+#EXTINF:-1,FemJoy
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/6212/index.m3u8
+
+#EXTINF:-1,驚艷
+http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/85.ts
+#EXTINF:-1,潘朵拉完美
+http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/86.ts
+#EXTINF:-1,香蕉
+http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/87.ts
+#EXTINF:-1,松視1台
+http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/88.ts
+#EXTINF:-1,松視2台
+http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/89.ts
+#EXTINF:-1,Japan HDV
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/6225/index.m3u8
+
+
+#EXTINF:-1,Tushy HD
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/6261/index.m3u8
+#EXTINF:-1,Vixen HD
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/6265/index.m3u8
+#EXTINF:-1,Eromania 4K
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/10049/index.m3u8
+#EXTINF:-1,Dorcel HD orig
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/9064/index.m3u8
+#EXTINF:-1,Dorcel TV HD
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/245/index.m3u8
+#EXTINF:-1,Dorcel HD
+http://88.212.7.11/live/test_dorcel_hd_hevc/playlist.m3u8
+#EXTINF:-1,Venus
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/6284/index.m3u8
+#EXTINF:-1,Venus HD
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/12133/index.m3u8
+#EXTINF:-1,Barely Legal TV
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/12165/index.m3u8
+#EXTINF:-1,Extasy 4K
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/5014/index.m3u8
+#EXTINF:-1,Extasy HD
+http://88.212.7.11/live/test_extasy_hd_hevc/playlist.m3u8
+#EXTINF:-1,Brazzers HD
+http://88.212.7.11/live/test_brazzers_hd_hevc/playlist.m3u8
+#EXTINF:-1,White Boxxx
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/6267/index.m3u8
+#EXTINF:-1,Nubiles TV HD
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/6238/index.m3u8
+#EXTINF:-1,Naughty America
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/6237/index.m3u8
+
+#EXTINF:-1,Erox
+http://88.212.7.11/live/test_erox_hd_hevc/playlist.m3u8
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/6296/index.m3u8
+#EXTINF:-1,Eroxx
+http://88.212.7.11/live/test_erox_hd_hevc/playlist.m3u8
+#EXTINF:-1,Eroxxx
+http://88.212.7.11/live/test_eroxxx_hd_hevc/playlist.m3u8
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/5015/index.m3u8
+#EXTINF:-1,Desire HD
+http://88.212.7.11/live/test_desire_hd_hevc/playlist.m3u8
+#EXTINF:-1,StrahTV PlayBoyz TV HD
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/31709/index.m3u8
+#EXTINF:-1,StrahTV Ню Арт HD
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/31716/index.m3u8
