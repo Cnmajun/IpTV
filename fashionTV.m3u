@@ -3,29 +3,41 @@
 https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/playlist.m3u8
 #EXTINF:-1,Fashion TV
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01546-ftv-fashiontv-xiaomi/playlist.m3u8
-#EXTINF:-1 tvg-id="fashion-tv" tvg-name="fashion-tv" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/7995fcb8-ac5f-494c-8384-53e8f0a19cf6-fashion-tv-1602688597.jpeg" group-title="Estilo de vida" , Fashion TV
+#EXTINF:-1 tvg-id="fashion-tv" tvg-name="fashion-tv" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/7995fcb8-ac5f-494c-8384-53e8f0a19cf6-fashion-tv-1602688597.jpeg" , Fashion TV
 https://amg01546-amg01546c1-rakuten-gb-9592.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01546-fashiontv-fashiontv-rakutengb/playlist.m3u8?ads_amagi_channel=1060&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakuten.tv&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=hobbies&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_market=es&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=7&ads_rtv_content_id=1278&ads_rtv_content_language=eng&ads_rtvid=271859&ads_streaming_id=78153b0c-94bd-4d26-9a55-eafb5fd7f029&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor
 
 #EXTINF:-1,Fashion TV Midnight 
 http://fash1043.cloudycdn.services/slive/_definst_/ftv_midnite_secrets_adaptive.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="FashionTVParisLOriginal.fr@SD" tvg-logo="https://i.imgur.com/GFTAN5Q.png" group-title="Lifestyle",FashionTV Paris L'Original (1080p)
+#EXTINF:-1 tvg-id="FashionTVParisLOriginal.fr@SD" tvg-logo="https://i.imgur.com/GFTAN5Q.png" ,FashionTV Paris L'Original (1080p)
 https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
 
-#EXTINF:-1  group-title="Adult",Fashion CZ
+#EXTINF:-1,FashionTV F-Men
+https://fash1043.cloudycdn.services/store/_definst_/tmsp00043/vod/03/63/301101/qi3_THE_BEST_O_483610.smil/chunklist_b7000000_sleng_t64MTA4MHBAN21iaXQ=.m3u8
+#EXTINF:-1,FashionTV Johannesburg
+https://fashs043.cloudycdn.services/scte/africa/africa_chunklist.m3u8
+#EXTINF:-1,Midnight Secrets
+https://fash1043.cloudycdn.services/slive/_definst_/ftv_midnite_secrets_adaptive.smil/playlist.m3u8
+#EXTINF:-1,Midnight Secrets
+https://fash1043.cloudycdn.services/slive/ftv_midnite_secrets_adaptive.smil/playlist.m3u8
+#EXTINF:-1,Miami TV Jenny Live
+https://59ec5453559f0.streamlock.net/JennyLive/JennyLive/playlist.m3u8
+
+#EXTINF:-1,Fashion CZ
 http://lb.streaming.sk/fashiontv/stream/playlist.m3u8?fluxustv.m3u8
+
 #EXTINF:-1,Playboy
 http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/527/index.m3u8
-#EXTINF:-1,Playboy Plus
-http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/6242/index.m3u8
 #EXTINF:-1,Playboy LA
 http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/6280/index.m3u8
 #EXTINF:-1,PLAYBOY TV
 http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/12135/index.m3u8
-
 #EXTINF:-1 tvg-id="PbTVLatinAmericaHD.us",Playboy TV Latin America (1080p)
 http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
-#EXTINF:-1  group-title="Adult",PlayBoyHD
+#EXTINF:-1 ,PlayBoyHD
 http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
+
+#EXTINF:-1,Playboy Plus
+http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/6242/index.m3u8
 
 #EXTINF:-1,MetArt FHD
 http://a0bn5xro.rostelekom.xyz/iptv/7XBZV8CQEYWT3U/12160/index.m3u8
