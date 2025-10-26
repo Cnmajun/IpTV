@@ -218,7 +218,7 @@ proxy-groups:
 # ==================== 规则路由 ====================
 rules: 
 
-  - IP-CIDR,223.5.5.5/32,DIRECT,no-resolve
+#  - IP-CIDR,223.5.5.5/32,DIRECT,no-resolve
 
   # 拦截规则
   - RULE-SET,Tracking,REJECT
