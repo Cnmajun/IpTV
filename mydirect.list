@@ -1,10 +1,9 @@
 #direct domian or ip
 
-DOMAIN-SUFFIX,tanx.com
  
 # 自定义的规则集域名规则
 DOMAIN-SUFFIX,dnsany.com
-DOMAIN-SUFFIX,bing.com
+#DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,solidigm-qwer.com
 DOMAIN-SUFFIX,vsean.net  
 DOMAIN-SUFFIX,cmvideo.cn
@@ -16,8 +15,10 @@ DOMAIN-SUFFIX,yangshipin.cn
 DOMAIN-SUFFIX,gcable.cn
 DOMAIN-SUFFIX,mytvsuper.xyz
 DOMAIN-KEYWORD,ipip.net
-DOMAIN-KEYWORD,catvod
+#DOMAIN-KEYWORD,catvod
 DOMAIN-SUFFIX,immortalwrt.org
+DOMAIN-SUFFIX,googleapis.cn
+DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com
 
   # 常用必备
 DST-PORT,123,DIRECT
