@@ -16,13 +16,22 @@
 体育直播：  https://raw.githubusercontent.com/mavin521/syiptv/refs/heads/main/sports.m3u
 
 
+
+
 #### astro，需要配置使用新加坡代理
 
 [http://tv.anbox.ip-ddns.com/live](http://tv.anbox.ip-ddns.com/live)
+https://raw.githubusercontent.com/Misterinusantara35/PerfectTVOFFICIAL/refs/heads/main/README.md
+https://raw.githubusercontent.com/sni2007/sni2007/refs/heads/main/FREETV
+https://raw.githubusercontent.com/sni2007/sni2007/refs/heads/main/TEST
+
+
 
 #### 18+：
 
 [http://www1.RobYang.us.kg/VodLive/jb8ffa](http://www1.robyang.us.kg/VodLive/jb8ffa)
+https://raw.githubusercontent.com/atsushi444/iptv/refs/heads/main/0626.m3u
+
 
 ### YanG：
 
