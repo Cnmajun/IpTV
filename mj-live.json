@@ -32,10 +32,16 @@
       "pass": true
     },
     {
-      "name": "貓抓",
+      "name": "CATVOD",
       "url": "https://live.catvod.com/tv.m3u",
       "ua": "catvod.com"
     },  
+    {
+      "name": "CNN SkySport",
+      "url": "https://github.com/mavin521/syiptv/raw/refs/heads/main/live.m3u",
+    },  
+
+    
     {
       "name": "Daddylive",
       "url": "https://192.168.123.9:6077/channels.m3u",
@@ -50,10 +56,9 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "pass": true
     },
-
     {
       "name":"FreeTV",
-      "url":"https://raw.githubusercontent.com/Cnmajun/IpTV/refs/heads/main/FREETV.txt",
+      "url":"https://raw.githubusercontent.com/sni2007/sni2007/refs/heads/main/FREETV",
       "timeout":10,
       "ua":"okhttp/3.8.1 okhttp/3.15 okhttp/4.12.0 Herissmon/2016 judy/5.2.1 RobYang/5.2.1 Lavf/58.12.100 catvod.com",
       "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
@@ -61,14 +66,18 @@
     },
     {
       "name":"PerfectTVOfficial",
-      "url":"https://github.com/Cnmajun/IpTV/blob/main/PerfectTVOFFICIAL.txt",
+      "url":"https://raw.githubusercontent.com/sni2007/sni2007/refs/heads/main/TEST",
       "timeout":10,
       "ua":"okhttp/3.8.1 okhttp/3.15 okhttp/4.12.0 Herissmon/2016 judy/5.2.1 RobYang/5.2.1 Lavf/58.12.100 catvod.com",
       "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
       "logo":"https://epg.112114.xyz/logo/{name}.png"
     },  
+    {
+      "name": "astushi444",
+      "url": "https://raw.githubusercontent.com/sni2007/sni2007/refs/heads/main/ShareextReborn",
+    },  
 
-    
+       
     {
       "name": "香蕉-Gather",
       "url": "https://tv.iill.top/m3u/Gather",
@@ -146,10 +155,10 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "jar" : "https://gitlab.com/tenrecha/recha/-/raw/main/jar/mqitv.jar",
+      "jar" : "https://raw.githubusercontent.com/sqspot/tac/refs/heads/main/jar/fmMQiTV.jar",
       "name": "60酒店源",
       "api" : "csp_MQiTV",
-      "ext" : "https://60.248.127.232:4433",
+      "ext" : "http://182.113.234.53:8899",
       "epg" : "http://iptv.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
