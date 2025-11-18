@@ -72,12 +72,7 @@
       "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
       "logo":"https://epg.112114.xyz/logo/{name}.png"
     },  
-    {
-      "name": "astushi444",
-      "url": "https://raw.githubusercontent.com/sni2007/sni2007/refs/heads/main/ShareextReborn"
-    },  
 
-       
     {
       "name": "香蕉-Gather",
       "url": "https://tv.iill.top/m3u/Gather",
