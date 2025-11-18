@@ -40,8 +40,15 @@
       "name": "CNN SkySport",
       "url": "https://github.com/mavin521/syiptv/raw/refs/heads/main/live.m3u"
     },  
-
-    
+    {
+      "name": "4k sports",
+      "url": "https://raw.githubusercontent.com/kgasaz/4kuhd/master/sports-channels-4k.m3u"
+    },  
+    {
+      "name": "IPTV888",
+      "url": "https://m3u888.zabc.net/get.php?username=tg_1795749095&password=06bcc2ca&token=f81f3a00c20715cc6681d2dfc37a2a0430f5b09b374d544370bfa71100d6e577&type=m3u"
+    },  
+        
     {
       "name": "Daddylive",
       "url": "https://192.168.123.9:6077/channels.m3u",
