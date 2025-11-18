@@ -155,7 +155,7 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "jar" : "https://raw.githubusercontent.com/sqspot/tac/refs/heads/main/jar/fmMQiTV.jar",
+      "jar" : "https://raw.githubusercontent.com/jj00780078/jj00780078.github.io/refs/heads/main/mqitv.jar",
       "name": "60酒店源",
       "api" : "csp_MQiTV",
       "ext" : "http://182.113.234.53:8899",
