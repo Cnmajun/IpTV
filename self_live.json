@@ -1,11 +1,11 @@
 {
     "lives": [
         {
-            "name": "AKTV",
+            "name": "HakMiranda",
             "type": 0,
             "boot":true,
-            "url": "http://aktv.space/live.m3u",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "url": "https://raw.githubusercontent.com/shadany7824/M3U-MALAYSIA-ASTEROK-MYTV-UNIFI/refs/heads/main/HakMiranda.m3u",
+            "epg": "https://raw.githubusercontent.com/sni2007/EPG/main/astro.xml",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
