@@ -22,9 +22,19 @@
 
 [http://tv.anbox.ip-ddns.com/live](http://tv.anbox.ip-ddns.com/live)
 https://raw.githubusercontent.com/Misterinusantara35/PerfectTVOFFICIAL/refs/heads/main/README.md
+
 https://raw.githubusercontent.com/sni2007/sni2007/refs/heads/main/FREETV
+
 https://raw.githubusercontent.com/sni2007/sni2007/refs/heads/main/TEST
 
+TCL TV Plus (updated 5/08/25)
+https://www.apsattv.com/tclplus.m3u
+
+LG TV (US)
+https://www.apsattv.com/uslg.m3u
+
+Samsung TV Plus(us) @ https://github.com/BuddyChewChew/app-m3u-generator/tree/main  ###
+https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/refs/heads/main/playlists/samsungtvplus_us.m3u
 
 
 #### 18+：
