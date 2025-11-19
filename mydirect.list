@@ -22,7 +22,7 @@ DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com
 
   # 常用必备
 DST-PORT,123,DIRECT
-DOMAIN-SUFFIX,imee.meT
+DOMAIN-SUFFIX,imee.me
 DOMAIN-SUFFIX,amemv.com
 DOMAIN-SUFFIX,douyinvod.com
 DOMAIN-SUFFIX,gifshow.com
