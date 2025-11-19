@@ -27,10 +27,10 @@ https://raw.githubusercontent.com/sni2007/sni2007/refs/heads/main/FREETV
 
 https://raw.githubusercontent.com/sni2007/sni2007/refs/heads/main/TEST
 
-TCL TV Plus (updated 5/08/25)
+TCL TV Plus (updated 5/08/25) @@https://www.apsattv.com/ ##
 https://www.apsattv.com/tclplus.m3u
 
-LG TV (US)
+LG TV (US) @@https://www.apsattv.com/ ##
 https://www.apsattv.com/uslg.m3u
 
 Samsung TV Plus(us) @ https://github.com/BuddyChewChew/app-m3u-generator/tree/main  ###
