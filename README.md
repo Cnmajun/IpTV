@@ -29,6 +29,8 @@ https://raw.githubusercontent.com/sni2007/sni2007/refs/heads/main/TEST
 
 https://github.com/lem85930/kakaxi-1-IPTV
 
+https://bit.ly/sports4kuhd
+
 
 ## TCL TV Plus (updated 5/08/25) ## https://www.apsattv.com/ 
 https://www.apsattv.com/tclplus.m3u
