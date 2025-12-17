@@ -6,7 +6,6 @@ DOMAIN-SUFFIX,dnsany.com
 #DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,solidigm-qwer.com
 DOMAIN-SUFFIX,vsean.net  
-DOMAIN-SUFFIX,cmvideo.cn
 DOMAIN-SUFFIX,chinamobile.com
 DOMAIN-SUFFIX,mobaibox.com
 DOMAIN-SUFFIX,gitv.tv
@@ -19,6 +18,9 @@ DOMAIN-KEYWORD,ipip.net
 DOMAIN-SUFFIX,immortalwrt.org
 DOMAIN-SUFFIX,googleapis.cn
 DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com
+DOMAIN-SUFFIX,cmvideo.cn
+DOMAIN-SUFFIX,miguvideo.com
+DOMAIN-SUFFIX,migucloud.com
 
   # 常用必备
 DST-PORT,123,DIRECT
@@ -28,8 +30,6 @@ DOMAIN-SUFFIX,douyinvod.com
 DOMAIN-SUFFIX,gifshow.com
 DOMAIN-SUFFIX,apissl.ksapisrv.com
 DOMAIN-SUFFIX,edith.xiaohongshu.com
-DOMAIN-SUFFIX,miguvideo.com
-DOMAIN-SUFFIX,itv.cmvideo.cn
 DOMAIN-SUFFIX,edu.cn
 DOMAIN-SUFFIX,188766.xyz
 
