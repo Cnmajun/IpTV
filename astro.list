@@ -32,7 +32,7 @@ DOMAIN-SUFFIX,iptvcat.net
 DOMAIN-SUFFIX,rcti.id
 DOMAIN-SUFFIX,trans7.co.id
 DOMAIN-SUFFIX,pinimg.com
-DOMAIN-SUFFIX,wurl.tv
+#DOMAIN-SUFFIX,wurl.tv
 DOMAIN-SUFFIX,globenewswire.com
 DOMAIN-SUFFIX,fightsports.us
 DOMAIN-SUFFIX,fightsports.tv
