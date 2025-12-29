@@ -9,59 +9,91 @@ https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HL
 #EXTINF:-1,Fashion CZ
 http://lb.streaming.sk/fashiontv/stream/playlist.m3u8?fluxustv.m3u8
 
-#EXTINF:-1,Playboy
-http://a0bn5xro.rostelekom.xyz/iptv/ESMHU7B3S7N5NW/527/index.m3u8
-#EXTINF:-1,Playboy LA
-http://a0bn5xro.rostelekom.xyz/iptv/ESMHU7B3S7N5NW/6280/index.m3u8
-#EXTINF:-1,PLAYBOY TV
-http://a0bn5xro.rostelekom.xyz/iptv/ESMHU7B3S7N5NW/12135/index.m3u8
+#EXTINF:-1 group-title="私密頻道 ADULT" tvg-logo="https://raw.githubusercontent.com/atsushi444/iptv/main/logo/amazing_tv.png",驚豔台
+http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/85.ts
+#EXTINF:-1 group-title="私密頻道 ADULT" tvg-logo="https://raw.githubusercontent.com/atsushi444/iptv/main/logo/pandora_perfect.png",潘朵啦玩美台
+http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/86.ts
+#EXTINF:-1 group-title="私密頻道 ADULT" tvg-logo="",香蕉台
+http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/87.ts
+#EXTINF:-1 group-title="私密頻道 ADULT" tvg-logo="https://raw.githubusercontent.com/atsushi444/iptv/main/logo/sonsee1.png",松視1台
+http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/88.ts
+#EXTINF:-1 group-title="私密頻道 ADULT" tvg-logo="https://raw.githubusercontent.com/atsushi444/iptv/main/logo/SonSee2.png",松視2台
+http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/89.ts
+#EXTINF:-1 group-title="私密頻道 ADULT" tvg-logo="https://raw.githubusercontent.com/atsushi444/iptv/main/logo/sonsee3.png",松視3台
+http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/90.ts
+
+#EXTINF:-1 group-title="私密頻道 ADULT" tvg-logo="https://raw.githubusercontent.com/atsushi444/iptv/main/logo/amazing_tv.png",驚豔台(125)
+http://125.227.210.55:3016/VideoInput/play.ts
+#EXTINF:-1 group-title="私密頻道 ADULT" tvg-logo="",Sex girl(125)
+http://125.227.210.55:3031/VideoInput/play.ts
+#EXTINF:-1 group-title="私密頻道 ADULT" tvg-logo="https://www.ourshdtv.com/static/index/images/logo/logo_727_346.png",奧視3台(125)
+http://125.227.210.55:3033/VideoInput/play.ts
+#EXTINF:-1 group-title="私密頻道 ADULT" tvg-logo="https://raw.githubusercontent.com/atsushi444/iptv/main/logo/Banana.png",香蕉台(125)
+http://125.227.210.55:8159/VideoInput/play.ts
+#EXTINF:-1 group-title="私密頻道 ADULT" tvg-logo="https://www.ourshdtv.com/static/index/images/logo/logo_727_346.png",奧視2台(125)
+http://125.227.210.55:8203/VideoInput/play.ts
+
+
+#EXTINF:-1 group-title="成人电视台" tvg-logo="https://www.alterum.ch/uploads/press_page/image/29/LOGO_CARAC_TV.png",CARAC5（早7）
+https://edge19.vedge.infomaniak.com/livecast/ik:carac5/manifest.m3u8
+#EXTINF:-1 group-title="成人电视台" tvg-logo="https://www.alterum.ch/uploads/press_page/image/29/LOGO_CARAC_TV.png",CARAC1（早7）
+https://edge19.vedge.infomaniak.com/livecast/ik:rougetv/manifest.m3u8
+#EXTINF:-1 group-title="成人电视台" tvg-logo="https://www.alterum.ch/uploads/press_page/image/29/LOGO_CARAC_TV.png",CARAC2
+https://edge19.vedge.infomaniak.com/livecast/ik:onefmmd/manifest.m3u8
+
+
 #EXTINF:-1 tvg-id="PbTVLatinAmericaHD.us",Playboy TV Latin America (1080p)
 http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
 #EXTINF:-1 ,PlayBoyHD
 http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
 
+#EXTINF:-1,Playboy
+http://a0bn5xro.rostelekom.xyz/iptv/ESMHU7B3S7N5NW/527/index.m3u8
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/527/index.m3u8
+#EXTINF:-1,Playboy LA
+http://a0bn5xro.rostelekom.xyz/iptv/ESMHU7B3S7N5NW/6280/index.m3u8
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/6280/index.m3u8
+#EXTINF:-1,PLAYBOY TV
+http://a0bn5xro.rostelekom.xyz/iptv/ESMHU7B3S7N5NW/12135/index.m3u8
 #EXTINF:-1,Playboy Plus
 http://a0bn5xro.rostelekom.xyz/iptv/ESMHU7B3S7N5NW/6242/index.m3u8
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/6242/index.m3u8
 
 #EXTINF:-1,MetArt FHD
 http://a0bn5xro.rostelekom.xyz/iptv/ESMHU7B3S7N5NW/12160/index.m3u8
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/12160/index.m3u8
+
 #EXTINF:-1,MetArt HD
 http://a0bn5xro.rostelekom.xyz/iptv/ESMHU7B3S7N5NW/6233/index.m3u8
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/6233/index.m3u8
 
 #EXTINF:-1,SexArt
 http://a0bn5xro.rostelekom.xyz/iptv/ESMHU7B3S7N5NW/6253/index.m3u8
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/6253/index.m3u8
 #EXTINF:-1,FemJoy
 http://a0bn5xro.rostelekom.xyz/iptv/ESMHU7B3S7N5NW/6212/index.m3u8
-
-#EXTINF:-1,驚艷
-http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/85.ts
-#EXTINF:-1,潘朵拉完美
-http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/86.ts
-#EXTINF:-1,香蕉
-http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/87.ts
-#EXTINF:-1,松視1台
-http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/88.ts
-#EXTINF:-1,松視2台
-http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/89.ts
-#EXTINF:-1,松视3
-http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/90.ts
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/6212/index.m3u8
 
 #EXTINF:-1,Japan HDV
 http://a0bn5xro.rostelekom.xyz/iptv/ESMHU7B3S7N5NW/6225/index.m3u8
-
-
 #EXTINF:-1,Tushy HD
 http://a0bn5xro.rostelekom.xyz/iptv/ESMHU7B3S7N5NW/6261/index.m3u8
 #EXTINF:-1,Vixen HD
 http://a0bn5xro.rostelekom.xyz/iptv/ESMHU7B3S7N5NW/6265/index.m3u8
 #EXTINF:-1,Eromania 4K
 http://a0bn5xro.rostelekom.xyz/iptv/ESMHU7B3S7N5NW/10049/index.m3u8
+
+#EXTINF:-1 group-title="" tvg-logo="",DORCEL TV FHD
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/12131/index.m3u8
 #EXTINF:-1,Dorcel HD orig
 http://a0bn5xro.rostelekom.xyz/iptv/ESMHU7B3S7N5NW/9064/index.m3u8
 #EXTINF:-1,Dorcel TV HD
 http://a0bn5xro.rostelekom.xyz/iptv/ESMHU7B3S7N5NW/245/index.m3u8
 #EXTINF:-1,Dorcel HD
 http://88.212.7.11/live/test_dorcel_hd_hevc/playlist.m3u8
+#EXTINF:-1 group-title="" tvg-logo="",DUSK TV
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/12129/index.m3u8
+
 #EXTINF:-1,Venus
 http://a0bn5xro.rostelekom.xyz/iptv/ESMHU7B3S7N5NW/6284/index.m3u8
 #EXTINF:-1,Venus HD
@@ -81,6 +113,32 @@ http://a0bn5xro.rostelekom.xyz/iptv/ESMHU7B3S7N5NW/6238/index.m3u8
 #EXTINF:-1,Naughty America
 http://a0bn5xro.rostelekom.xyz/iptv/ESMHU7B3S7N5NW/6237/index.m3u8
 
+#EXTINF:-1 group-title="" tvg-logo="",Wicked
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/6268/index.m3u8
+
+#EXTINF:-1 group-title="" tvg-logo="",TushyRAW
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/6262/index.m3u8
+#EXTINF:-1 group-title="" tvg-logo="",Blacked HD
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/6178/index.m3u8
+#EXTINF:-1 group-title="" tvg-logo="",Lesbea
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/6227/index.m3u8
+#EXTINF:-1 group-title="" tvg-logo="",Private HD
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/6245/index.m3u8
+
+#EXTINF:-1 group-title="" tvg-logo="",Babes HD
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/6171/index.m3u8
+#EXTINF:-1 group-title="" tvg-logo="",Babes TV HD
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/6172/index.m3u8
+#EXTINF:-1 group-title="" tvg-logo="",Cum4k
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/6190/index.m3u8
+#EXTINF:-1 group-title="" tvg-logo="",DDF Busty
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/6193/index.m3u8
+#EXTINF:-1 group-title="" tvg-logo="",DDF Network
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/6194/index.m3u8
+#EXTINF:-1 group-title="" tvg-logo="",Digital Desire HD
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/6195/index.m3u8
+
+
 #EXTINF:-1,Erox
 http://88.212.7.11/live/test_erox_hd_hevc/playlist.m3u8
 http://a0bn5xro.rostelekom.xyz/iptv/ESMHU7B3S7N5NW/6296/index.m3u8
@@ -93,3 +151,22 @@ http://a0bn5xro.rostelekom.xyz/iptv/ESMHU7B3S7N5NW/5015/index.m3u8
 http://88.212.7.11/live/test_desire_hd_hevc/playlist.m3u8
 #EXTINF:-1,StrahTV Ню Арт HD
 http://a0bn5xro.rostelekom.xyz/iptv/ESMHU7B3S7N5NW/31716/index.m3u8
+
+#EXTINF:-1 group-title="" tvg-logo="",XY Max HD
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/6286/index.m3u8
+#EXTINF:-1 group-title="" tvg-logo="",XY Mix HD
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/6287/index.m3u8
+#EXTINF:-1 group-title="" tvg-logo="",XY Plus HD
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/6288/index.m3u8
+
+#EXTINF:-1 group-title="" tvg-logo="",Penthouse Passion
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/5010/index.m3u8
+#EXTINF:-1 group-title="" tvg-logo="",Penthouse Gold HD
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/5011/index.m3u8
+#EXTINF:-1 group-title="" tvg-logo="",Penthouse Quickies 1300k
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/5012/index.m3u8
+#EXTINF:-1 group-title="" tvg-logo="",Penthouse Quickies HD
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/5013/index.m3u8
+
+#EXTINF:-1 group-title="" tvg-logo="",A3 Bikini
+http://a0bn5xro.rostelekom.xyz/iptv/BPZAZHWVQK3DBLBDSRGFZZ6K/6165/index.m3u8
