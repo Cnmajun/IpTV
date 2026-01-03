@@ -4,8 +4,8 @@ DOMAIN-SUFFIX,mytvsuper.com
 DOMAIN-KEYWORD,thetvapp
 DOMAIN-SUFFIX,freetv.top
 DOMAIN-SUFFIX,stream-link.org
-DOMAIN-SUFFIX,gaijin.net
-DOMAIN-SUFFIX,warthunder.com  
+#DOMAIN-SUFFIX,gaijin.net
+#DOMAIN-SUFFIX,warthunder.com  
 DOMAIN-SUFFIX,appsflyersdk.com
 DOMAIN-SUFFIX,hoy.tv
 DOMAIN-KEYWORD,rthktv
