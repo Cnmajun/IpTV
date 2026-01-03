@@ -17,8 +17,8 @@ IP-DIR,88.212.7.11
 DOMAIN-SUFFIX,rostelekom.xyz
 #DST-PORT,25461  #走日本代理
 
+DOMAIN-SUFFIX,cdnedge.live
+DOMAIN-SUFFIX,redtraffic.xyz
+DOMAIN-SUFFIX,adultiptv.net
+DOMAIN-SUFFIX,pluto.tv
 
-
-
-
-#DOMAIN-KEYWORD,rthktv
