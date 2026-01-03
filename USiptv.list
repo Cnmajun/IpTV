@@ -1,0 +1,24 @@
+#需要走美国代理的大流量iptv地址
+
+#Samsung/LG/xiaomi/TCLplus
+DOMAIN-SUFFIX,playouts.now.amagi.tv
+DOMAIN-SUFFIX,lg.wurl.tv
+DOMAIN-SUFFIX,tsv2.amagi.tv
+DOMAIN-SUFFIX,xumo.com
+DOMAIN-KEYWORD,xumo
+
+
+#Fashion 系列
+
+DOMAIN-SUFFIX,infomaniak.com
+IP-DIR,125.227.210.55
+IP-DIR,190.11.225.124
+IP-DIR,88.212.7.11
+DOMAIN-SUFFIX,rostelekom.xyz
+#DST-PORT,25461  #走日本代理
+
+
+
+
+
+#DOMAIN-KEYWORD,rthktv
