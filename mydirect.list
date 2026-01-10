@@ -16,7 +16,7 @@ DOMAIN-SUFFIX,gcable.cn
 DOMAIN-SUFFIX,mytvsuper.xyz
 DOMAIN-KEYWORD,ipip.net
 #DOMAIN-KEYWORD,catvod
-DOMAIN-SUFFIX,immortalwrt.org
+#DOMAIN-SUFFIX,immortalwrt.org
 DOMAIN-SUFFIX,googleapis.cn
 DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com
 DOMAIN-SUFFIX,cmvideo.cn
