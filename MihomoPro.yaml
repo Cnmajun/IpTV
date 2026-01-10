@@ -129,14 +129,37 @@ dns:
   ipv6: true
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
+
   default-nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
-    - 180.184.1.1
-  
+    - tls://223.5.5.5
+    - tls://223.6.6.6
+  # 代理路径用的国外上游（仅对需代理的非直连规则集域名）
   nameserver:
-    - https://dns.alidns.com/dns-query
-    - https://doh.pub/dns-query
+    - "https://cloudflare-dns.com/dns-query"
+    - "https://dns.google/dns-query"
+  # 直连路径专用上游（国内 DoH）
+  direct-nameserver:
+    - "https://dns.alidns.com/dns-query"
+    - "https://doh.pub/dns-query"
+  # 解析代理服务器的域名，防循环用国内
+  proxy-server-nameserver:
+    - "https://dns.alidns.com/dns-query"
+    - "https://doh.pub/dns-query"
+  # 配置查询访问域名使用的服务器
+  nameserver-policy:
+    # 直连类规则集匹配的域名绑定国内上游，首跳即国内，不触发国外→国内回切
+    "rule-set:Direct,Private,China":  #//7.3
+      - "https://dns.alidns.com/dns-query"
+      - "https://doh.pub/dns-query"
+#######
+  
+  #default-nameserver:
+  #  - 223.5.5.5
+  #  - 119.29.29.29
+  #  - 180.184.1.1
+ # nameserver:
+ #   - https://dns.alidns.com/dns-query
+ #   - https://doh.pub/dns-query
   fake-ip-filter:
     - rule-set:Direct
     - rule-set:Private
