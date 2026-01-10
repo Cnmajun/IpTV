@@ -345,7 +345,7 @@ rule-providers:
     url: https://github.com/Cnmajun/IpTV/raw/main/astro.list
   twiptv:
     <<: *ClassicalText
-    url: https://github.com/btjson/loon/raw/main/Hami.list
+    url: https://github.com/Cnmajun/IpTV/raw/main/TW_iptv.list
   hkiptv:
     <<: *ClassicalText
     url: https://github.com/Cnmajun/IpTV/raw/main/HK_iptv.list
