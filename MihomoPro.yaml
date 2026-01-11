@@ -263,7 +263,7 @@ rules:
   - DOMAIN-SUFFIX,catvod.com,全球手动
   - DOMAIN-SUFFIX,vvvv.ee,全球手动
   - DOMAIN-SUFFIX,surrit.com,全球手动
-#  - DOMAIN-SUFFIX,rostelekom.xyz,美国大流量
+  - DOMAIN-SUFFIX,pluto.tv,美国策略
 
 
   - DOMAIN-SUFFIX,googleapis.cn,谷歌服务  # PROXY 替换为你代理节点组名，如香港/台湾节点
