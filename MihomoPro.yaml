@@ -138,15 +138,15 @@ dns:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
     
-#  nameserver-policy:
-#    '+.googlevideo.com': 'https://[2606:4700:4700::1111]/dns-query'
+  nameserver-policy:
+    '+.googlevideo.com': 'https://[2606:4700:4700::1111]/dns-query'
     
   fake-ip-filter:
     - rule-set:Direct
     - rule-set:Private
     - rule-set:China
     - +.miwifi.com
-#    - +.googlevideo.com
+    - +.googlevideo.com
     - +.docker.io
     - +.market.xiaomi.com
     - +.push.apple.com
