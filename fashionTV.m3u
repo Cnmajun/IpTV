@@ -6,6 +6,9 @@ https://amg01546-amg01546c1-rakuten-gb-9592.playouts.now.amagi.tv/ts-eu-w1-n2/pl
 #EXTINF:-1 tvg-id="FashionTVParisLOriginal.fr@SD" tvg-logo="https://i.imgur.com/GFTAN5Q.png" ,FashionTV Paris L'Original (1080p)
 https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
 
+#EXTINF:--1,Fashion Channel(720p)
+http://fl1001.bozztv.com/ushba19/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1,Fashion CZ
 http://lb.streaming.sk/fashiontv/stream/playlist.m3u8?fluxustv.m3u8
 
