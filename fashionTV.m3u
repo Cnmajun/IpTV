@@ -13,7 +13,7 @@ https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-6490c01f3b3c
 http://fl1001.bozztv.com/ushba19/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1,Fashion midnight
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/MZRN5BYP/M10.png",Fashion midnight
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=67c0c39764ad6f7dab07aa0b&AV_APPNAME=[ADS.APP_NAME]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_CCPA=[ADS.US_PRIVACY]&AV_CLIENT_SECTION=ftv_secrets&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_CAT=IAB7&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_EPISODE=&AV_CONTENT_GENRE=fashion+and+lifestyle&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_KEYWORDS=&AV_CONTENT_LANGUAGE=en&AV_CONTENT_LENGTH=&AV_CONTENT_NETWORK=&AV_CONTENT_PROVIDER=FTV&AV_CONTENT_RATING=R&AV_CONTENT_SEASON=&AV_CONTENT_SERIES=&AV_CONTENT_TITLE=&AV_CONTENT_URL=&AV_DNT=[ADS.DNT]&AV_GDPR=[ADS.GDPR]&AV_HEIGHT=[ADS.H]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_OSVERS=[ADS.DEVICE_OSV]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_VAUTH=[ADS.VAUTH]&AV_WIDTH=[ADS.W]&Content_Id=[ADS.ADS_CONTENTID]&ads.vidaa_ads_param=1191723366&cb=[CACHEBUSTER]&content_channel_name=ftv+-fashiontv+Secrets&content_livestream=1
 
 #EXTINF:-1 group-title="私密頻道 ADULT" tvg-logo="https://raw.githubusercontent.com/atsushi444/iptv/main/logo/amazing_tv.png",驚豔台
@@ -54,7 +54,7 @@ http://g-med.xyz:25461/aleksanar_vujadinovic/anhuZ7SAj3hF/689
 #EXTINF:-1 tvg-id="" tvg-name="Playboy TV" tvg-logo="https://tvlogolar.xyz/logo/Ozel/adult.png",Playboy TV
 http://xvpn.eu01.live:8080/Matthias/Big222/695050
 
-#EXTINF:-1 tvg-id="XXX: Playboy TV LIVE" tvg-logo="https://docdog.top/logo/countries/xxx/porn18.png", XXX: Playboy TV LIVE
+#EXTINF:-1 tvg-id="XXX: Playboy TV LIVE" tvg-logo="https://docdog.top/logo/countries/xxx/porn18.png", Playboy TV LIVE
 http://vipwettbornwet.top:8080/VIP016681756467295596/7c22759c7600/132488
 
 #EXTINF:-1 tvg-id="Dummy" tvg-logo="https://docdog.top/logo/countries/xxx/porn18.png", XXX: Playboy TV LIVE
