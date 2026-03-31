@@ -12,16 +12,6 @@ https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-6490c01f3b3c
 #EXTINF:--1,Fashion Channel(720p)
 http://fl1001.bozztv.com/ushba19/tracks-v1a1/mono.m3u8
 
-###EXTINF:-1,Fashion CZ
-##http://lb.streaming.sk/fashiontv/stream/playlist.m3u8?fluxustv.m3u8
-
-#EXTINF:-1,Fashion PG16
-https://iptv-org.github.io/channels/fr/FashionTVPG16
-
-#EXTINF:-1,Fashion UHD
-https://iptv-org.github.io/channels/fr/FashionTVUHD
-#EXTINF:-1,Fashion Tokyo
-https://iptv-org.github.io/channels/fr/FashionTVTokyo
 
 #EXTINF:-1,Fashion midnight
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=67c0c39764ad6f7dab07aa0b&AV_APPNAME=[ADS.APP_NAME]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_CCPA=[ADS.US_PRIVACY]&AV_CLIENT_SECTION=ftv_secrets&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_CAT=IAB7&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_EPISODE=&AV_CONTENT_GENRE=fashion+and+lifestyle&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_KEYWORDS=&AV_CONTENT_LANGUAGE=en&AV_CONTENT_LENGTH=&AV_CONTENT_NETWORK=&AV_CONTENT_PROVIDER=FTV&AV_CONTENT_RATING=R&AV_CONTENT_SEASON=&AV_CONTENT_SERIES=&AV_CONTENT_TITLE=&AV_CONTENT_URL=&AV_DNT=[ADS.DNT]&AV_GDPR=[ADS.GDPR]&AV_HEIGHT=[ADS.H]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_OSVERS=[ADS.DEVICE_OSV]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_VAUTH=[ADS.VAUTH]&AV_WIDTH=[ADS.W]&Content_Id=[ADS.ADS_CONTENTID]&ads.vidaa_ads_param=1191723366&cb=[CACHEBUSTER]&content_channel_name=ftv+-fashiontv+Secrets&content_livestream=1
@@ -92,6 +82,9 @@ http://a0bn5xro.rostelekom.xyz/iptv/D7FCL5T9NEFZVT/6253/index.m3u8
 #EXTINF:-1,FemJoy
 http://a0bn5xro.rostelekom.xyz/iptv/AHMQNVLWUTM5PW/6212/index.m3u8
 http://a0bn5xro.rostelekom.xyz/iptv/D7FCL5T9NEFZVT/6212/index.m3u8
+
+#EXTINF:-1 group-title="" tvg-logo="http://epg.one/img2/11478.png",FTV Girls HD
+http://a0bn5xro.rostelekom.xyz/iptv/AHMQNVLWUTM5PW/12165/index.m3u8
 
 #EXTINF:-1,Japan HDV
 http://a0bn5xro.rostelekom.xyz/iptv/AHMQNVLWUTM5PW/6225/index.m3u8
