@@ -14,7 +14,7 @@ DOMAIN-SUFFIX,infomaniak.com
 IP-CIDR,125.227.210.55/32
 IP-CIDR,190.11.225.124/32
 IP-CIDR,88.212.7.11/32
-DOMAIN-SUFFIX,rostelekom.xyz
+# DOMAIN-SUFFIX,rostelekom.xyz ###走大流量
 #DST-PORT,25461  #走日本代理
 
 DOMAIN-SUFFIX,cdnedge.live
